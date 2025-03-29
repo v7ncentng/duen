@@ -45,7 +45,7 @@ export const profrel = [
     cohort: 'Fall 2024 Cohort',
     position: 'Committee Director, Professional Relations',
     linkedin: 'https://www.linkedin.com/in/desiree-poon-86b334328/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Poon_Desiree.jpg',
   },
   {
     name: 'Adrian Chan',

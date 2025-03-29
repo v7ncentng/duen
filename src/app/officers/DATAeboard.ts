@@ -76,15 +76,6 @@ export const eboard = [
     linkedin: 'https://www.linkedin.com/in/ian-marwong-49575b2b3',
     image: '/officers/Marwong_Ian.jpg',
   },
-  // {
-  //   name: 'Natalie Kuang',
-  //   year: 'Class of 2024',
-  //   major: 'Biomedical Engineering',
-  //   cohort: 'Spring 2023 Cohort',
-  //   position: 'Secretary',
-  //   linkedin: 'https://www.linkedin.com/in/natalie-kuang-ucd2025/',
-  //   image: '/officers/Kuang_Natalie.JPG',
-  // },
   {
     name: 'Seshnag Regoti',
     year: 'Class of 2024',
@@ -94,24 +85,6 @@ export const eboard = [
     linkedin: 'https://www.linkedin.com/in/seshnag-regoti/',
     image: '/officers/Regoti_Seshnag.jpg',
   },
-  // {
-  //   name: 'Matthew Wang',
-  //   year: 'Class of 2024',
-  //   major: 'Managerial Economics',
-  //   cohort: 'Spring 2023 Cohort',
-  //   position: 'Program Manager',
-  //   linkedin: 'https://www.linkedin.com/in/matthew-wang-a41093214/',
-  //   image: '/officers/Wang_Matthew.jpg',
-  // },
-  // {
-  //   name: 'Chris Lo',
-  //   year: 'Class of 2024',
-  //   major: 'Computer Science and Economics',
-  //   cohort: 'Spring 2023 Cohort',
-  //   position: 'Program Manager',
-  //   linkedin: 'https://www.linkedin.com/in/christopherlo34/',
-  //   image: '/officers/Lo_Chris.jpg',
-  // },
   {
     name: "Jonathan Wu",
     year: "Class of 2026",
@@ -119,6 +92,6 @@ export const eboard = [
     cohort: "Fall 2023 Cohort",
     position: "Program Manager",
     linkedin: "https://www.linkedin.com/in/jonathan-wu-link/",
-    image: "/officers/Wu_Jonathan.jpg",
+    image: "/officers/Wu_Jonathan.jpeg",
   },
 ];

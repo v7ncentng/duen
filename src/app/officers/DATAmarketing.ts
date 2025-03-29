@@ -45,7 +45,7 @@ export const marketing = [
     cohort: "Fall 2024 Cohort",
     position: "Committee Director, Marketing",
     linkedin: "https://www.linkedin.com/in/tovuhieuminh/",
-    image: "/officers/Chiv_Sumain.jpg",
+    image: "/officers/To_HieuMinh.jpg",
   },
   {
     name: "Simone Robson",
