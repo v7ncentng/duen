@@ -56,7 +56,7 @@ export const eboard = [
     cohort: 'Fall 2023 Cohort',
     position: 'President',
     linkedin: 'https://www.linkedin.com/in/aliya-abla/',
-    image: '/officers/Abla_Aliya.jpg',
+    image: '/officers/Abla_Aliya.png',
   },
   {
     name: "Shruti Kakar",
