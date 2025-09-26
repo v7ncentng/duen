@@ -56,7 +56,7 @@ export const eboard = [
     cohort: 'Spring 2023 Cohort',
     position: 'President',
     linkedin: 'https://www.linkedin.com/in/etiennerousseau1/',
-    image: '/officers/Abla_Aliya.png',
+    image: '/officers/Rousseau_Etienne.jpg',
   },
   {
     name: "Cindy Shing",
