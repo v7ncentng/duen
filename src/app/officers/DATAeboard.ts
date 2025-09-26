@@ -65,7 +65,7 @@ export const eboard = [
     cohort: "Spring 2023 Cohort",
     position: "Vice President",
     linkedin: "https://www.linkedin.com/in/cindy-shing-09387a304/",
-    image: "/officers/Kakar_Shruti.jpg",
+    image: "/officers/Shing_Cindy.jpg",
   },
   {
     name: 'Hanna Dao',
@@ -74,7 +74,7 @@ export const eboard = [
     cohort: 'Spring 2024 Cohort',
     position: 'Secretary',
     linkedin: 'https://www.linkedin.com/in/hannadao/',
-    image: '/officers/Marwong_Ian.jpg',
+    image: '/officers/Dao_Hanna.JPG',
   },
   {
     name: 'Hadi Beveridge Eguino',
@@ -83,7 +83,7 @@ export const eboard = [
     cohort: 'Spring 2023 Cohort',
     position: 'Program Manager',
     linkedin: 'https://www.linkedin.com/in/hadi-beveridge-eguino/',
-    image: '/officers/Regoti_Seshnag.jpg',
+    image: '/officers/Eguino_Hadi.JPG',
   },
   {
     name: "Nicholas Xu",
@@ -92,6 +92,6 @@ export const eboard = [
     cohort: "Fall 2023 Cohort",
     position: "Program Manager",
     linkedin: "https://www.linkedin.com/in/nicholasxu2026/",
-    image: "/officers/Wu_Jonathan.jpeg",
+    image: "/officers/Xu_Nicholas.JPG",
   },
 ];
