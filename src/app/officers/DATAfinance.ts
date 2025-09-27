@@ -55,7 +55,7 @@ export const finance = [
     cohort: 'Spring 2023 Cohort',
     position: 'Committee Director, Finance',
     linkedin: 'https://www.linkedin.com/in/erika-gosti/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
     {
     name: 'Jeyashree Chandranhasan',
@@ -64,7 +64,7 @@ export const finance = [
     cohort: 'Fall 2023 Cohort',
     position: 'Finance',
     linkedin: 'https://www.linkedin.com/in/jeyashreechandrahasan/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   // {
   //   name: 'Kenneth Wong',
@@ -91,7 +91,7 @@ export const finance = [
     cohort: 'Spring 2023 Cohort',
     position: 'Finance',
     linkedin: 'https://www.linkedin.com/in/christopher-ordaz-44865429a/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: 'Jaclyn Lee',
@@ -100,7 +100,7 @@ export const finance = [
     cohort: 'Spring 2023 Cohort',
     position: 'Finance',
     linkedin: 'https://www.linkedin.com/in/jaclyn-lee127/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: 'Colin Chu',
@@ -109,7 +109,7 @@ export const finance = [
     cohort: 'Spring 2023 Cohort',
     position: 'Finance',
     linkedin: 'https://www.linkedin.com/in/colinchu27/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: 'Lorenzo Nakata',
@@ -118,7 +118,7 @@ export const finance = [
     cohort: 'Fall 2024 Cohort',
     position: 'Finance',
     linkedin: 'https://www.linkedin.com/in/lorenzo-nakata/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: 'Andrew Harrington',
@@ -127,7 +127,7 @@ export const finance = [
     cohort: 'Spring 2024 Cohort',
     position: 'Finance',
     linkedin: 'https://www.linkedin.com/in/andrewdharrington/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: "John Macaranas",
@@ -136,7 +136,7 @@ export const finance = [
     cohort: "Spring 2024 Cohort",
     position: "Finance",
     linkedin: "https://www.linkedin.com/in/john-elrenz-macaranas-02629b361/",
-    image: "/officers/Chu_Colin.jpeg",
+    image: "/officers/Chiv_Sumain.jpg",
   },
 
 ];
