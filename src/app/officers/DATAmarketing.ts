@@ -45,7 +45,7 @@ export const marketing = [
     cohort: "Fall 2023 Cohort",
     position: "Committee Director, Marketing",
     linkedin: "https://www.linkedin.com/in/charles-edwards-7540a12a7/",
-    image: "/officers/Chu_Colin.jpeg",
+    image: "/officers/Chiv_Sumain.jpg",
   },
   {
     name: "Seshnag Regoti",
@@ -54,7 +54,7 @@ export const marketing = [
     cohort: "Fall 2023 Cohort",
     position: "Marketing",
     linkedin: "https://www.linkedin.com/in/seshnag-regoti/",
-    image: "/officers/Chu_Colin.jpeg",
+    image: "/officers/Chiv_Sumain.jpg",
   },
   {
     name: "Nicholas Kim",
@@ -63,7 +63,7 @@ export const marketing = [
     cohort: "Spring 2023 Cohort",
     position: "Marketing",
     linkedin: "https://www.linkedin.com/in/nickim04/",
-    image: "/officers/Chu_Colin.jpeg",
+    image: "/officers/Chiv_Sumain.jpg",
   },
   {
     name: 'Ariba Arif',
@@ -72,7 +72,7 @@ export const marketing = [
     cohort: 'Fall 2024 Cohort',
     position: 'Marketing',
     linkedin: 'https://www.linkedin.com/in/ariba-arif-92315a32a/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: 'Ben Busche',
@@ -81,7 +81,7 @@ export const marketing = [
     cohort: 'Fall 2024 Cohort',
     position: 'Marketing',
     linkedin: 'https://www.linkedin.com/in/ben-busche/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {  
     name: 'Kyoungdeok Han',
@@ -90,7 +90,7 @@ export const marketing = [
     cohort: 'Fall 2024 Cohort',
     position: 'Marketing',
     linkedin: 'https://www.linkedin.com/in/kyoungdeok-han-1937a9280/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: 'Naomi Petersen',
@@ -99,7 +99,7 @@ export const marketing = [
     cohort: 'Fall 2024 Cohort',
     position: 'Marketing',
     linkedin: 'https://www.linkedin.com/in/naomipetersen-/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: 'Angie Li',
@@ -108,7 +108,7 @@ export const marketing = [
     cohort: 'Spring 2024 Cohort',
     position: 'Marketing',
     linkedin: 'https://www.linkedin.com/in/angie-li-65a242361/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
     {
     name: 'Ethan Thurston',
@@ -117,7 +117,7 @@ export const marketing = [
     cohort: 'Spring 2024 Cohort',
     position: 'Marketing',
     linkedin: 'https://www.linkedin.com/in/ethanthurston/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
     {
     name: 'Jacob Mashini',
@@ -126,6 +126,6 @@ export const marketing = [
     cohort: 'Spring 2024 Cohort',
     position: 'Marketing',
     linkedin: 'https://www.linkedin.com/in/jacob-mashini-0105b0295/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
 ];
