@@ -45,7 +45,7 @@ export const marketing = [
     cohort: "Fall 2023 Cohort",
     position: "Committee Director, Marketing",
     linkedin: "https://www.linkedin.com/in/charles-edwards-7540a12a7/",
-    image: "/officers/Chiv_Sumain.jpg",
+    image: "/officers/Edwards_Charles.jpg",
   },
   {
     name: "Seshnag Regoti",
@@ -54,7 +54,7 @@ export const marketing = [
     cohort: "Fall 2023 Cohort",
     position: "Marketing",
     linkedin: "https://www.linkedin.com/in/seshnag-regoti/",
-    image: "/officers/Chiv_Sumain.jpg",
+    image: "/officers/Regoti_Seshnag.jpg",
   },
   {
     name: "Nicholas Kim",
@@ -63,7 +63,7 @@ export const marketing = [
     cohort: "Spring 2023 Cohort",
     position: "Marketing",
     linkedin: "https://www.linkedin.com/in/nickim04/",
-    image: "/officers/Chiv_Sumain.jpg",
+    image: "/officers/Kim_Nicholas.jpg",
   },
   {
     name: 'Ariba Arif',
@@ -81,7 +81,7 @@ export const marketing = [
     cohort: 'Fall 2024 Cohort',
     position: 'Marketing',
     linkedin: 'https://www.linkedin.com/in/ben-busche/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Busche_Ben.jpg',
   },
   {  
     name: 'Kyoungdeok Han',
@@ -90,7 +90,7 @@ export const marketing = [
     cohort: 'Fall 2024 Cohort',
     position: 'Marketing',
     linkedin: 'https://www.linkedin.com/in/kyoungdeok-han-1937a9280/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Han_KD.jpeg',
   },
   {
     name: 'Naomi Petersen',
@@ -99,7 +99,7 @@ export const marketing = [
     cohort: 'Fall 2024 Cohort',
     position: 'Marketing',
     linkedin: 'https://www.linkedin.com/in/naomipetersen-/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Petersen_Naomi.jpg',
   },
   {
     name: 'Angie Li',
