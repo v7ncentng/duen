@@ -54,7 +54,7 @@ export const internal = [
     cohort: 'Fall 2024 Cohort',
     position: 'Committee Director, Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/sanjithiype/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Iype_Sanjith.png',
   },
   {
     name: "Cody Chen",
@@ -63,7 +63,7 @@ export const internal = [
     cohort: "Spring 2023 Cohort",
     position: "Internal Affairs",
     linkedin: "https://www.linkedin.com/in/cody-chen-05b379303/",
-    image: "/officers/Chiv_Sumain.jpg",
+    image: "/officers/Chen_Cody.jpeg",
   },
   {
     name: 'Hieu-Minh To Vu',
@@ -72,7 +72,7 @@ export const internal = [
     cohort: 'Fall 2024 Cohort',
     position: 'Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/tovuhieuminh/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/To_HieuMinh.jpg',
   },
   {
     name: 'Maya Chou',
@@ -81,7 +81,7 @@ export const internal = [
     cohort: 'Fall 2024 Cohort',
     position: 'Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/maya-chou-350754290/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Chou_Maya.jpeg',
   },
   {
     name: 'Jeshurun Liou',
