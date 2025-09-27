@@ -117,7 +117,7 @@ export const profrel = [
     cohort: 'Spring 2024 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/kaitlyn-hahn/',
-    image: '/officers/Cadavona_Cory.jpg',
+    image: '/officers/Chu_Colin.jpeg',
   },
   {
     name: 'Lianne R. de Leon',
@@ -126,7 +126,7 @@ export const profrel = [
     cohort: 'Spring 2024 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/liannerdl/',
-    image: '/officers/Nguyen_Bryan.JPG',
+    image: '/officers/Chu_Colin.jpeg',
   },
   // {
   //   name: 'Vikram Gopalan',
