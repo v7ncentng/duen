@@ -99,7 +99,7 @@ export const marketing = [
     cohort: 'Fall 2024 Cohort',
     position: 'Marketing',
     linkedin: 'https://www.linkedin.com/in/naomipetersen-/',
-    image: '/officers/Petersen_Naomi.jpg',
+    image: '/officers/Petersen_Naomi.jpeg',
   },
   {
     name: 'Angie Li',
