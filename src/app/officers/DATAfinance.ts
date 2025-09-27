@@ -64,7 +64,7 @@ export const finance = [
     cohort: 'Fall 2023 Cohort',
     position: 'Finance',
     linkedin: 'https://www.linkedin.com/in/jeyashreechandrahasan/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Chandrahasan_Jeyashree.jpg',
   },
   // {
   //   name: 'Kenneth Wong',
@@ -91,7 +91,7 @@ export const finance = [
     cohort: 'Spring 2023 Cohort',
     position: 'Finance',
     linkedin: 'https://www.linkedin.com/in/christopher-ordaz-44865429a/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Ordaz_Christopher.jpg',
   },
   {
     name: 'Jaclyn Lee',
@@ -100,7 +100,7 @@ export const finance = [
     cohort: 'Spring 2023 Cohort',
     position: 'Finance',
     linkedin: 'https://www.linkedin.com/in/jaclyn-lee127/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Lee_Jaclyn.jpg',
   },
   {
     name: 'Colin Chu',
@@ -109,7 +109,7 @@ export const finance = [
     cohort: 'Spring 2023 Cohort',
     position: 'Finance',
     linkedin: 'https://www.linkedin.com/in/colinchu27/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Chu_Colin.jpeg',
   },
   {
     name: 'Lorenzo Nakata',
