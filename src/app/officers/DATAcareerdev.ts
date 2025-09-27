@@ -45,7 +45,7 @@ export const careerdev = [
     cohort: 'Fall 2023 Cohort',
     position: 'Committee Director, Career Development',
     linkedin: 'https://www.linkedin.com/in/ian-marwong/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Marwong_Ian.jpg',
   },
   {
     name: 'Desiree Poon',
@@ -54,7 +54,7 @@ export const careerdev = [
     cohort: 'Fall 2024 Cohort',
     position: 'Career Development',
     linkedin: 'https://www.linkedin.com/in/desiree-poon/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Poon_Desiree.jpg',
   },
   //   {
   //   name: 'Greg Chang',
@@ -90,7 +90,7 @@ export const careerdev = [
     cohort: 'Fall 2024 Cohort',
     position: 'Career Development',
     linkedin: 'https://www.linkedin.com/in/nina-dao-98a034272/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Dao_Nina.jpeg',
   },
   {
     name: 'Vincent Ng',
