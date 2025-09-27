@@ -54,7 +54,7 @@ export const profrel = [
     cohort: 'Fall 2023 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/fabriziolazo3/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Guiterrez_Fabrizio.jpg',
   },
   {
     name: 'Sumain Chiv',
@@ -72,7 +72,7 @@ export const profrel = [
     cohort: 'Spring 2023 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/nsclin/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Lin_Nick.jpg',
   },
   {
     name: 'Jiya Patel',
@@ -81,7 +81,7 @@ export const profrel = [
     cohort: 'Fall 2024 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/jiya-patel-bb0690332/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Patel_Jiya.jpeg',
   },
   {
     name: 'Hishaan Rajwani',
