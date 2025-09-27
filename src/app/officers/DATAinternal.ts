@@ -54,7 +54,7 @@ export const internal = [
     cohort: 'Fall 2024 Cohort',
     position: 'Committee Director, Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/sanjithiype/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: "Cody Chen",
@@ -63,7 +63,7 @@ export const internal = [
     cohort: "Spring 2023 Cohort",
     position: "Internal Affairs",
     linkedin: "https://www.linkedin.com/in/cody-chen-05b379303/",
-    image: "/officers/Chu_Colin.jpeg",
+    image: "/officers/Chiv_Sumain.jpg",
   },
   {
     name: 'Hieu-Minh To Vu',
@@ -72,7 +72,7 @@ export const internal = [
     cohort: 'Fall 2024 Cohort',
     position: 'Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/tovuhieuminh/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: 'Maya Chou',
@@ -81,7 +81,7 @@ export const internal = [
     cohort: 'Fall 2024 Cohort',
     position: 'Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/maya-chou-350754290/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: 'Jeshurun Liou',
@@ -90,7 +90,7 @@ export const internal = [
     cohort: 'Spring 2024 Cohort',
     position: 'Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/jeshurunliou/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: "Michelle Lin",
@@ -99,7 +99,7 @@ export const internal = [
     cohort: "Spring 2024 Cohort",
     position: "Internal Affairs",
     linkedin: "https://www.linkedin.com/in/michelle-lin-3a441b281/",
-    image: "/officers/Chu_Colin.jpeg",
+    image: "/officers/Chiv_Sumain.jpg",
   },
   {
     name: "Saatvik Subramaniam",
@@ -108,7 +108,7 @@ export const internal = [
     cohort: "Spring 2024 Cohort",
     position: "Internal Affairs",
     linkedin: "https://www.linkedin.com/in/saatvik-subramaniam/",
-    image: "/officers/Chu_Colin.jpeg",
+    image: "/officers/Chiv_Sumain.jpg",
   },
   {
     name: 'Sakura Chiwata',
@@ -117,7 +117,7 @@ export const internal = [
     cohort: 'Spring 2024 Cohort',
     position: 'Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/sakurachiwata/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
  
 
