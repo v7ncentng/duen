@@ -45,7 +45,7 @@ export const profrel = [
     cohort: 'Spring 2024 Cohort',
     position: 'Committee Director, Professional Relations',
     linkedin: 'https://www.linkedin.com/in/gavinpas/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: 'Fabrizio Lazo Gutierrez',
@@ -54,7 +54,7 @@ export const profrel = [
     cohort: 'Fall 2023 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/fabriziolazo3/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: 'Sumain Chiv',
@@ -63,7 +63,7 @@ export const profrel = [
     cohort: 'Spring 2023 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/sumain-chiv/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: 'Nick Lin',
@@ -72,7 +72,7 @@ export const profrel = [
     cohort: 'Spring 2023 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/nsclin/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: 'Jiya Patel',
@@ -81,7 +81,7 @@ export const profrel = [
     cohort: 'Fall 2024 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/jiya-patel-bb0690332/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: 'Hishaan Rajwani',
@@ -90,7 +90,7 @@ export const profrel = [
     cohort: 'Spring 2024 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/hishaanrajwani/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   // {
   //   name: 'Sukhman Kahlon',
@@ -108,7 +108,7 @@ export const profrel = [
     cohort: 'Spring 2024 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/joshuaweiiii/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: 'Kaitlyn Hahn',
@@ -117,7 +117,7 @@ export const profrel = [
     cohort: 'Spring 2024 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/kaitlyn-hahn/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   {
     name: 'Lianne R. de Leon',
@@ -126,7 +126,7 @@ export const profrel = [
     cohort: 'Spring 2024 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/liannerdl/',
-    image: '/officers/Chu_Colin.jpeg',
+    image: '/officers/Chiv_Sumain.jpg',
   },
   // {
   //   name: 'Vikram Gopalan',
