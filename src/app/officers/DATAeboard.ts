@@ -78,7 +78,7 @@ export const eboard = [
   },
   {
     name: 'Hadi Beveridge Eguino',
-    year: 'Class of 2024',
+    year: 'Class of 2025',
     major: 'Civil Engineering',
     cohort: 'Spring 2023 Cohort',
     position: 'Program Manager',
