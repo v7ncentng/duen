@@ -74,7 +74,7 @@ export const eboard = [
     cohort: 'Spring 2024 Cohort',
     position: 'Secretary',
     linkedin: 'https://www.linkedin.com/in/hannadao/',
-    image: '/officers/Dao_Hanna.JPG',
+    image: '/officers/Dao_Hanna.jpeg',
   },
   {
     name: 'Hadi Beveridge Eguino',
