@@ -99,7 +99,7 @@ export const careerdev = [
     cohort: 'Spring 2024 Cohort',
     position: 'Career Development',
     linkedin: 'https://www.linkedin.com/in/wang-ng-8805b2213/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Chiv_Sumain.jpeg',
   },
   {
     name: 'Ryan Nguyen',
@@ -108,7 +108,7 @@ export const careerdev = [
     cohort: 'Spring 2024 Cohort',
     position: 'Career Development',
     linkedin: 'https://www.linkedin.com/in/ryan-nguyen-davis/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Nguyen_Ryan.jpeg',
   },
   {
     name: 'Jefferson Fan',
@@ -117,7 +117,7 @@ export const careerdev = [
     cohort: 'Spring 2024 Cohort',
     position: 'Career Development',
     linkedin: 'https://www.linkedin.com/in/jeffersonfan/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Fan_Jefferson.jpg',
   },
   {
     name: 'Arnav Akula',
@@ -126,7 +126,7 @@ export const careerdev = [
     cohort: 'Spring 2024 Cohort',
     position: 'Career Development',
     linkedin: 'https://www.linkedin.com/in/arnavakula/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Akula_Arnav.heic',
   },
   
   // {  
