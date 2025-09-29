@@ -90,7 +90,7 @@ export const profrel = [
     cohort: 'Spring 2024 Cohort',
     position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/hishaanrajwani/',
-    image: '/officers/Rajwani_Hishaan.jpg',
+    image: '/officers/Rajwani_Hishaan.jpeg',
   },
   // {
   //   name: 'Sukhman Kahlon',
