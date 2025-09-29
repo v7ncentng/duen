@@ -55,7 +55,7 @@ export const finance = [
     cohort: 'Spring 2023 Cohort',
     position: 'Committee Director, Finance',
     linkedin: 'https://www.linkedin.com/in/erika-gosti/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Gosti_Erika.JPG',
   },
     {
     name: 'Jeyashree Chandranhasan',
