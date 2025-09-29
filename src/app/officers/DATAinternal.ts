@@ -54,7 +54,7 @@ export const internal = [
     cohort: 'Fall 2024 Cohort',
     position: 'Committee Director, Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/sanjithiype/',
-    image: '/officers/Iype_Sanjith.png',
+    image: '/officers/Iype_Sanjith.jpeg',
   },
   {
     name: "Cody Chen",
@@ -63,7 +63,7 @@ export const internal = [
     cohort: "Spring 2023 Cohort",
     position: "Internal Affairs",
     linkedin: "https://www.linkedin.com/in/cody-chen-05b379303/",
-    image: "/officers/Chen_Cody.jpeg",
+    image: "/officers/Chen_Cody.jpg",
   },
   {
     name: 'Hieu-Minh To Vu',
@@ -90,7 +90,7 @@ export const internal = [
     cohort: 'Spring 2024 Cohort',
     position: 'Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/jeshurunliou/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Liou_JJ.jpeg',
   },
   {
     name: "Michelle Lin",
@@ -99,7 +99,7 @@ export const internal = [
     cohort: "Spring 2024 Cohort",
     position: "Internal Affairs",
     linkedin: "https://www.linkedin.com/in/michelle-lin-3a441b281/",
-    image: "/officers/Chiv_Sumain.jpg",
+    image: "/officers/Lin_Michelle.jpeg",
   },
   {
     name: "Saatvik Subramaniam",
@@ -108,7 +108,7 @@ export const internal = [
     cohort: "Spring 2024 Cohort",
     position: "Internal Affairs",
     linkedin: "https://www.linkedin.com/in/saatvik-subramaniam/",
-    image: "/officers/Chiv_Sumain.jpg",
+    image: "/officers/Subramaniam_Saatvik.JPG",
   },
   {
     name: 'Sakura Chiwata',
