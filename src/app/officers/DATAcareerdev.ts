@@ -99,7 +99,7 @@ export const careerdev = [
     cohort: 'Spring 2024 Cohort',
     position: 'Career Development',
     linkedin: 'https://www.linkedin.com/in/wang-ng-8805b2213/',
-    image: '/officers/Chiv_Sumain.jpeg',
+    image: '/officers/Ng_Wang.jpeg',
   },
   {
     name: 'Ryan Nguyen',
