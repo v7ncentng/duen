@@ -81,7 +81,7 @@ export const internal = [
     cohort: 'Fall 2024 Cohort',
     position: 'Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/maya-chou-350754290/',
-    image: '/officers/Chou_Maya.jpeg',
+    image: '/officers/Chou_Maya.JPG',
   },
   {
     name: 'Jeshurun Liou',
