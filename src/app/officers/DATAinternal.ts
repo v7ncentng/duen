@@ -117,7 +117,7 @@ export const internal = [
     cohort: 'Spring 2024 Cohort',
     position: 'Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/sakurachiwata/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Chiwata_Sakura.jpeg',
   },
  
 
