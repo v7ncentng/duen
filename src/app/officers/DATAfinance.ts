@@ -118,7 +118,7 @@ export const finance = [
     cohort: 'Fall 2024 Cohort',
     position: 'Finance',
     linkedin: 'https://www.linkedin.com/in/lorenzo-nakata/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Nakata_Lorenzo.JPEG',
   },
   {
     name: 'Andrew Harrington',
@@ -127,7 +127,7 @@ export const finance = [
     cohort: 'Spring 2024 Cohort',
     position: 'Finance',
     linkedin: 'https://www.linkedin.com/in/andrewdharrington/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Harrington_Andrew.JPEG',
   },
   {
     name: "John Macaranas",
@@ -136,7 +136,7 @@ export const finance = [
     cohort: "Spring 2024 Cohort",
     position: "Finance",
     linkedin: "https://www.linkedin.com/in/john-elrenz-macaranas-02629b361/",
-    image: "/officers/Chiv_Sumain.jpg",
+    image: "/officers/Macaranas_John.jpg",
   },
 
 ];
