@@ -126,7 +126,7 @@ export const careerdev = [
     cohort: 'Spring 2024 Cohort',
     position: 'Career Development',
     linkedin: 'https://www.linkedin.com/in/arnavakula/',
-    image: '/officers/Akula_Arnav.heic',
+    image: '/officers/Akula_Arnav.jpg',
   },
   
   // {  
