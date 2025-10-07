@@ -99,7 +99,7 @@ export const marketing = [
     cohort: 'Fall 2024 Cohort',
     position: 'Marketing',
     linkedin: 'https://www.linkedin.com/in/naomipetersen-/',
-    image: '/officers/Petersen_Naomi.jpeg',
+    image: '/officers/Petersen_Naomi.JPG',
   },
   {
     name: 'Angie Li',
@@ -108,7 +108,7 @@ export const marketing = [
     cohort: 'Spring 2024 Cohort',
     position: 'Marketing',
     linkedin: 'https://www.linkedin.com/in/angie-li-65a242361/',
-    image: '/officers/Chiv_Sumain.jpg',
+    image: '/officers/Li_Angie.jpeg',
   },
     {
     name: 'Ethan Thurston',
