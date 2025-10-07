@@ -90,7 +90,7 @@ export const marketing = [
     cohort: 'Fall 2024 Cohort',
     position: 'Marketing',
     linkedin: 'https://www.linkedin.com/in/kyoungdeok-han-1937a9280/',
-    image: '/officers/Han_KD.jpeg',
+    image: '/officers/KD.JPEG',
   },
   {
     name: 'Naomi Petersen',
