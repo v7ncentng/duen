@@ -109,7 +109,7 @@ export const finance = [
     cohort: 'Spring 2023 Cohort',
     position: 'Finance',
     linkedin: 'https://www.linkedin.com/in/colinchu27/',
-    image: '/officers/Chu_Colin.jpg',
+    image: '/officers/Chu_Colin.JPG',
   },
   {
     name: 'Lorenzo Nakata',
