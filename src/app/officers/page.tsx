@@ -1,11 +1,13 @@
 import Banner from '../components/banner'
 import OfficerBadge from './OfficerBadge'
+import CohortSection from './CohortSection'
 import { eboard } from './DATAeboard'
 import { careerdev } from './DATAcareerdev'
 import { finance } from './DATAfinance'
 import { internal } from './DATAinternal'
 import { profrel } from './DATAprofrel'
 import { marketing } from './DATAmarketing'
+import { cohorts } from './DATAcohorts'
 import type { Metadata } from 'next'
  
 export const metadata: Metadata = {
@@ -147,6 +149,22 @@ export default function Officers() {
                                 image={curr_officer.image}
                             />
 
+                        )
+                    })}
+                </div>
+            </div>
+
+            {/* Cohorts Section - Dropdown style */}
+            <div className="w-full flex flex-col items-center py-20 bg-gray-50">
+                <p className="text-4xl md:text-5xl lg:text-6xl font-bold text-purple pb-20">Previous Cohorts</p>
+                <div className="w-full max-w-7xl px-4">
+                    {cohorts.map((cohort) => {
+                        return (
+                            <CohortSection
+                                key={cohort.name}
+                                cohortName={cohort.name}
+                                officers={cohort.officers}
+                            />
                         )
                     })}
                 </div>
