@@ -17,9 +17,11 @@ export default function Officers() {
     return (
         <div className="flex flex-col min-h-fit">
             <Banner word="officers"></Banner>
-
+            <p className="text-center text-lg md:text-xl text-gray-600 px-4 pt-8 pb-2 max-w-2xl mx-auto">
+                Reach out to any of these officers to know more about DUEN!
+            </p>
             {/* Executive Board Container */}
-            <div className="w-full flex flex-col items-center py-20">
+            <div className="w-full flex flex-col items-center pt-8 pb-20">
                 <p className="text-4xl md:text-5xl lg:text-6xl font-bold text-purple pb-20">Executive Board</p>
                 <div className="flex flex-wrap justify-center">
                     {eboard.map((curr_officer, index) => {

@@ -138,5 +138,14 @@ export const finance = [
     linkedin: "https://www.linkedin.com/in/john-elrenz-macaranas-02629b361/",
     image: "/officers/Macaranas_John.jpg",
   },
+  {
+    name: "Kenneth Nguyen",
+    year: "Class of 2028",
+    major: "Environmental Engineering",
+    cohort: "Fall 2025 Cohort",
+    position: "Finance",
+    linkedin: "https://www.linkedin.com/in/kenneth-nguyen-b1098b320/",
+    image: "/officers/Kenneth_Nguyen.jpeg",
+  },
 
 ];

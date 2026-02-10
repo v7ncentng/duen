@@ -128,6 +128,24 @@ export const careerdev = [
     linkedin: 'https://www.linkedin.com/in/arnavakula/',
     image: '/officers/Akula_Arnav.jpg',
   },
+  {
+    name: 'Sachin Venkat',
+    year: 'Class of 2028',
+    major: 'Computer Science',
+    cohort: 'Fall 2025 Cohort',
+    position: 'Career Development',
+    linkedin: 'www.linkedin.com/in/sachinvenkat/',
+    image: '/officers/Sachin_Venkat.jpg',
+  },
+  {
+    name: 'Claris Tain',
+    year: 'Class of 2026',
+    major: 'Electrical Engineering',
+    cohort: 'Fall 2025 Cohort',
+    position: 'Career Development',
+    linkedin: 'https://www.linkedin.com/in/claris-tain/',
+    image: '/officers/Claris_Tain.jpeg',
+  }
   
   // {  
   //   name: 'Lucas Fedronic',
