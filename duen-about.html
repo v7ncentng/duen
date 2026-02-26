@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DUEN — About</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --gold: #C9A84C;
+    --gold-light: #E8C97A;
+    --gold-dim: rgba(201, 168, 76, 0.15);
+    --ink: #0D0D0D;
+    --cream: #F5F0E8;
+    --warm-gray: #1A1814;
+    --mid: #3A3530;
+    --text-secondary: #8A7F72;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--ink);
+    color: var(--cream);
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    overflow-x: hidden;
+  }
+
+  /* ── Grain overlay ── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 999;
+    opacity: 0.6;
+  }
+
+  /* ── Nav ── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 4rem;
+    background: linear-gradient(to bottom, rgba(13,13,13,0.95) 0%, transparent 100%);
+  }
+
+  .logo {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.35em;
+    color: var(--gold);
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .nav-links a:hover, .nav-links a.active { color: var(--gold); }
+
+  /* ── Hero ── */
+  .hero {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10rem 4rem 6rem 4rem;
+    position: relative;
+    z-index: 2;
+  }
+
+  .eyebrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.4em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    opacity: 0;
+    animation: fadeUp 0.8s 0.2s forwards;
+  }
+
+  .hero-title {
+    font-size: clamp(3.5rem, 6vw, 7rem);
+    font-weight: 300;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    color: var(--cream);
+    opacity: 0;
+    animation: fadeUp 0.8s 0.4s forwards;
+  }
+
+  .hero-title em {
+    font-style: italic;
+    color: var(--gold-light);
+  }
+
+  .hero-desc {
+    margin-top: 3rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    max-width: 38ch;
+    opacity: 0;
+    animation: fadeUp 0.8s 0.6s forwards;
+  }
+
+  .hero-image {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(30%) sepia(20%);
+    transform: scale(1.05);
+    transition: transform 8s ease;
+  }
+
+  .hero-image::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, var(--ink) 0%, transparent 40%),
+                linear-gradient(to top, var(--ink) 0%, transparent 30%);
+  }
+
+  .hero-image:hover img { transform: scale(1); }
+
+  /* Gold horizontal rule */
+  .rule {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    opacity: 0;
+    animation: fadeUp 0.8s 0.8s forwards;
+  }
+
+  .rule-line {
+    flex: 1;
+    max-width: 60px;
+    height: 1px;
+    background: var(--gold);
+  }
+
+  .rule-text {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.3em;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+  }
+
+  /* ── Mission strip ── */
+  .mission {
+    background: var(--gold);
+    padding: 5rem 4rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .mission-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.4em;
+    color: rgba(13,13,13,0.5);
+    text-transform: uppercase;
+  }
+
+  .mission-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin-top: 0.5rem;
+    letter-spacing: 0.05em;
+  }
+
+  .mission-body {
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.6;
+    color: var(--ink);
+    font-style: italic;
+  }
+
+  /* ── Pillars ── */
+  .pillars {
+    padding: 8rem 4rem;
+    background: var(--warm-gray);
+  }
+
+  .section-header {
+    display: flex;
+    align-items: baseline;
+    gap: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .section-number {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.3em;
+    color: var(--gold);
+  }
+
+  .section-title {
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: 300;
+    color: var(--cream);
+    letter-spacing: -0.02em;
+  }
+
+  .pillars-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: rgba(255,255,255,0.06);
+  }
+
+  .pillar {
+    background: var(--warm-gray);
+    padding: 3.5rem 3rem;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.4s;
+  }
+
+  .pillar::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: var(--gold);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease;
+  }
+
+  .pillar:hover { background: rgba(201, 168, 76, 0.05); }
+  .pillar:hover::before { transform: scaleX(1); }
+
+  .pillar-number {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.3em;
+    color: var(--gold);
+    margin-bottom: 1.5rem;
+  }
+
+  .pillar-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    filter: grayscale(40%) sepia(10%);
+    margin-bottom: 2rem;
+    display: block;
+  }
+
+  .pillar-name {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: var(--cream);
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+
+  .pillar-desc {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.75;
+    color: var(--text-secondary);
+  }
+
+  /* ── Alumni ── */
+  .alumni {
+    padding: 8rem 4rem;
+    background: var(--ink);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .alumni::before {
+    content: 'ALUMNI';
+    position: absolute;
+    top: 4rem; right: -2rem;
+    font-size: 14rem;
+    font-weight: 300;
+    color: rgba(201,168,76,0.04);
+    letter-spacing: -0.05em;
+    pointer-events: none;
+    white-space: nowrap;
+    font-style: italic;
+  }
+
+  .alumni-intro {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--text-secondary);
+    max-width: 55ch;
+    line-height: 1.8;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+  }
+
+  .logo-ticker-wrapper {
+    overflow: hidden;
+    -webkit-mask: linear-gradient(90deg, transparent, black 15%, black 85%, transparent);
+    mask: linear-gradient(90deg, transparent, black 15%, black 85%, transparent);
+  }
+
+  .logo-ticker {
+    display: flex;
+    gap: 4rem;
+    width: max-content;
+    animation: ticker 30s linear infinite;
+  }
+
+  .logo-ticker:hover { animation-play-state: paused; }
+
+  .logo-ticker-item {
+    height: 32px;
+    opacity: 0.35;
+    filter: brightness(10);
+    transition: opacity 0.3s;
+    flex-shrink: 0;
+  }
+
+  .logo-ticker-item:hover { opacity: 0.8; }
+
+  @keyframes ticker {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  /* ── CTA ── */
+  .cta {
+    background: var(--gold);
+    padding: 6rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .cta-left {}
+
+  .cta-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.4em;
+    color: rgba(13,13,13,0.5);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  .cta-title {
+    font-size: clamp(2rem, 3.5vw, 3rem);
+    font-weight: 300;
+    color: var(--ink);
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
+
+  .cta-actions {
+    display: flex;
+    gap: 1.5rem;
+    flex-shrink: 0;
+  }
+
+  .btn {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+    border: 1px solid var(--ink);
+    color: var(--ink);
+    transition: all 0.3s;
+  }
+
+  .btn:hover {
+    background: var(--ink);
+    color: var(--gold);
+  }
+
+  .btn-fill {
+    background: var(--ink);
+    color: var(--gold);
+  }
+
+  .btn-fill:hover {
+    background: transparent;
+    color: var(--ink);
+  }
+
+  /* ── Footer ── */
+  footer {
+    background: var(--ink);
+    padding: 3rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(201,168,76,0.15);
+  }
+
+  .footer-credit {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    color: var(--text-secondary);
+  }
+
+  .footer-email {
+    font-size: 0.9rem;
+    color: var(--gold);
+    text-decoration: none;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+  }
+
+  /* ── Animations ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+
+  .reveal.visible {
+    opacity: 1;
+    transform: none;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 900px) {
+    nav { padding: 1.5rem 2rem; }
+    .nav-links { gap: 1.5rem; }
+    .hero { grid-template-columns: 1fr; }
+    .hero-image { height: 50vw; }
+    .hero-text { padding: 9rem 2rem 4rem; }
+    .mission { grid-template-columns: 1fr; padding: 4rem 2rem; }
+    .pillars { padding: 5rem 2rem; }
+    .pillars-grid { grid-template-columns: 1fr; }
+    .alumni { padding: 5rem 2rem; }
+    .cta { flex-direction: column; align-items: flex-start; padding: 4rem 2rem; }
+    footer { flex-direction: column; gap: 1rem; padding: 2rem; text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="/" class="logo">DUEN</a>
+  <ul class="nav-links">
+    <li><a href="/about" class="active">About</a></li>
+    <li><a href="/officers">Officers</a></li>
+    <li><a href="/join">Join</a></li>
+    <li><a href="/faq">FAQ</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <p class="eyebrow">Davis Undergraduate Engineering Network</p>
+    <h1 class="hero-title">
+      Engineering<br>
+      <em>futures,</em><br>
+      together.
+    </h1>
+    <p class="hero-desc">
+      An interdisciplinary community connecting UC Davis engineers with the people, skills, and opportunities that shape careers.
+    </p>
+    <div class="rule">
+      <div class="rule-line"></div>
+      <span class="rule-text">Est. UC Davis</span>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="/_next/image?url=%2Fabout-content%2Fmission.jpg&w=1920&q=75" alt="DUEN members at corn maze" loading="lazy" />
+  </div>
+</section>
+
+<!-- MISSION -->
+<section class="mission">
+  <div>
+    <p class="mission-label">Our Purpose</p>
+    <p class="mission-title">Mission Statement</p>
+  </div>
+  <p class="mission-body">
+    DUEN fosters interdisciplinary collaboration within the engineering space — connecting like-minded engineers with the opportunities they need to advance their careers and leave a lasting mark.
+  </p>
+</section>
+
+<!-- PILLARS -->
+<section class="pillars">
+  <div class="section-header reveal">
+    <span class="section-number">02 —</span>
+    <h2 class="section-title">Our Core Values</h2>
+  </div>
+
+  <div class="pillars-grid">
+    <div class="pillar reveal">
+      <p class="pillar-number">01 / 03</p>
+      <img class="pillar-image" src="/_next/image?url=%2Fabout-content%2Fpillars%2Fcam.jpg&w=2048&q=75" alt="Camaraderie" loading="lazy" />
+      <h3 class="pillar-name">Camaraderie</h3>
+      <p class="pillar-desc">By bringing together engineers from every discipline, DUEN members forge tight-knit bonds and find a second family at Davis — from bingsoo runs to ski trips in Tahoe.</p>
+    </div>
+    <div class="pillar reveal" style="transition-delay:0.15s">
+      <p class="pillar-number">02 / 03</p>
+      <img class="pillar-image" src="/_next/image?url=%2Fabout-content%2F%2Fpillars%2Fprof.jpg&w=2048&q=75" alt="Professionalism" loading="lazy" />
+      <h3 class="pillar-name">Professionalism</h3>
+      <p class="pillar-desc">Through workshops, an alumni network, and an officer internship program, DUEN members gain the professional edge that industry demands.</p>
+    </div>
+    <div class="pillar reveal" style="transition-delay:0.3s">
+      <p class="pillar-number">03 / 03</p>
+      <img class="pillar-image" src="/_next/image?url=%2Fabout-content%2Fpillars%2Fphilanthropy.jpg&w=2048&q=75" alt="Community Service" loading="lazy" />
+      <h3 class="pillar-name">Community Service</h3>
+      <p class="pillar-desc">Future engineers create impact through innovation — and also through action. DUEN invests in the greater Davis community, broadening our perspective on how engineering serves others.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ALUMNI -->
+<section class="alumni">
+  <div class="section-header reveal">
+    <span class="section-number">03 —</span>
+    <h2 class="section-title">Alumni Network</h2>
+  </div>
+  <p class="alumni-intro reveal">
+    DUEN graduates go on to shape the industry. As an officer, you unlock full access to our alumni network — bridging Davis to some of the world's most sought-after companies.
+  </p>
+
+  <!-- Logo ticker (duplicated for seamless loop) -->
+  <div class="logo-ticker-wrapper reveal">
+    <div class="logo-ticker">
+      <!-- Row 1 -->
+      <img class="logo-ticker-item" src="/_next/image?url=%2Fabout-content%2Flogos%2Fgoogle.png&w=640&q=75" alt="Google" />
+      <img class="logo-ticker-item" src="/_next/image?url=%2Fabout-content%2Flogos%2Famazon.png&w=640&q=75" alt="Amazon" />
+      <img class="logo-ticker-item" src="/_next/image?url=%2Fabout-content%2Flogos%2Fapple.png&w=640&q=75" alt="Apple" />
+      <img class="logo-ticker-item" src="/_next/image?url=%2Fabout-content%2Flogos%2Fmicrosoft.jpg&w=640&q=75" alt="Microsoft" />
+      <img class="logo-ticker-item" src="/_next/image?url=%2Fabout-content%2Flogos%2Ftesla.png&w=640&q=75" alt="Tesla" />
+      <img class="logo-ticker-item" src="/_next/image?url=%2Fabout-content%2Flogos%2Fnasa.png&w=640&q=75" alt="NASA" />
+      <img class="logo-ticker-item" src="/_next/image?url=%2Fabout-content%2Flogos%2Fintel.png&w=640&q=75" alt="Intel" />
+      <img class="logo-ticker-item" src="/_next/image?url=%2Fabout-content%2Flogos%2Fibm.png&w=640&q=75" alt="IBM" />
+      <img class="logo-ticker-item" src="/_next/image?url=%2Fabout-content%2Flogos%2Fgenentech.png&w=640&q=75" alt="Genentech" />
+      <img class="logo-ticker-item" src="/_next/image?url=%2Fabout-content%2Flogos%2Fpinterest.png&w=640&q=75" alt="Pinterest" />
+      <!-- Row 2 (duplicate) -->
+      <img class="logo-ticker-item" src="/_next/image?url=%2Fabout-content%2Flogos%2Fgoogle.png&w=640&q=75" alt="Google" />
+      <img class="logo-ticker-item" src="/_next/image?url=%2Fabout-content%2Flogos%2Famazon.png&w=640&q=75" alt="Amazon" />
+      <img class="logo-ticker-item" src="/_next/image?url=%2Fabout-content%2Flogos%2Fapple.png&w=640&q=75" alt="Apple" />
+      <img class="logo-ticker-item" src="/_next/image?url=%2Fabout-content%2Flogos%2Fmicrosoft.jpg&w=640&q=75" alt="Microsoft" />
+      <img class="logo-ticker-item" src="/_next/image?url=%2Fabout-content%2Flogos%2Ftesla.png&w=640&q=75" alt="Tesla" />
+      <img class="logo-ticker-item" src="/_next/image?url=%2Fabout-content%2Flogos%2Fnasa.png&w=640&q=75" alt="NASA" />
+      <img class="logo-ticker-item" src="/_next/image?url=%2Fabout-content%2Flogos%2Fintel.png&w=640&q=75" alt="Intel" />
+      <img class="logo-ticker-item" src="/_next/image?url=%2Fabout-content%2Flogos%2Fibm.png&w=640&q=75" alt="IBM" />
+      <img class="logo-ticker-item" src="/_next/image?url=%2Fabout-content%2Flogos%2Fgenentech.png&w=640&q=75" alt="Genentech" />
+      <img class="logo-ticker-item" src="/_next/image?url=%2Fabout-content%2Flogos%2Fpinterest.png&w=640&q=75" alt="Pinterest" />
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <div class="cta-left">
+    <p class="cta-label">Get Involved</p>
+    <h2 class="cta-title">Ready to become<br>part of DUEN?</h2>
+  </div>
+  <div class="cta-actions">
+    <a href="https://forms.gle/AHsPhLmgBUxxZw2Q7" class="btn btn-fill">Interest Form</a>
+    <a href="mailto:duen-eboard@ucdavis.edu" class="btn">Email Us</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p class="footer-credit">Developed by Takumi Imanaka — Founding Cohort · With ♥ from the DUEN officers</p>
+  <a href="mailto:duen-eboard@ucdavis.edu" class="footer-email">duen-eboard@ucdavis.edu</a>
+</footer>
+
+<script>
+  // Scroll reveal
+  const reveals = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); }
+    });
+  }, { threshold: 0.1 });
+  reveals.forEach(el => io.observe(el));
+</script>
+</body>
+</html>
