@@ -6,6 +6,7 @@ import { pillars } from './DATApillars'
 import { mission } from './DATAmissionStatement'
 import { alumniNetwork } from './DATAalumniNetwork'
 import CompanyBadge from '@/app/about/CompanyBadge'
+import LogoLoop from '../components/LogoLoop'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -62,15 +63,19 @@ export default function About() {
                 <div className="flex flex-col justify-center items-center px-16 md:px-32 lg:px-64">
                     <p className="pb-20">{alumniNetwork}</p>
                 </div>
-                <div className="flex flex-wrap justify-center px-20">
-                    {
-                        companies.map((item) => {
-                            return <div key={item.name} className="px-3 py-3">
+                <div className="w-full py-10">
+                    <LogoLoop 
+                        speed={30}
+                        direction="left"
+                        gap="gap-8"
+                        className="py-6"
+                    >
+                        {companies.map((item) => (
+                            <div key={item.name} className="px-3 py-3">
                                 <CompanyBadge name={item.name} path={item.path}></CompanyBadge>
                             </div>
-                        }
-                        )
-                    }
+                        ))}
+                    </LogoLoop>
                 </div>
             </div>
         </main>
