@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false)
-  const links = [{ 'name': 'About', 'path': '/about' }, { 'name': 'Officers', 'path': '/officers' }, { 'name': 'Join', 'path': '/join' }, { 'name': 'FAQ', 'path': '/faq' }]
+  const links = [{ 'name': 'About', 'path': '/about' }, { 'name': 'Projects', 'path': '/projects' }, { 'name': 'Officers', 'path': '/officers' }, { 'name': 'Join', 'path': '/join' }, { 'name': 'FAQ', 'path': '/faq' }]
 
   return (
     <div className='shadow-md w-full fixed top-0 left-0 z-50'>
