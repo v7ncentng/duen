@@ -54,7 +54,7 @@ export const allofficers = [
         cohort: 'Fall 2022 Cohort',
         position: 'Career Development',
         linkedin: 'https://www.linkedin.com/in/matthewsuyetani/',
-        image: '/officers/suye.jpg',
+        image: '/officers/Suyetani_Matthew.JPG',
     },
     {
         name: 'Kenneth Bui',
@@ -63,7 +63,7 @@ export const allofficers = [
         cohort: 'Founding Cohort',
         position: 'Committee Director, Finance',
         linkedin: '',
-        image: '/officers/kenny.JPG',
+        image: '/officers/Bui_Kenneth.JPG',
     },
     {
         name: 'Daphne Lee',
@@ -117,7 +117,7 @@ export const allofficers = [
         cohort: 'Spring 2023 Cohort',
         position: 'Program Manager',
         linkedin: 'https://www.linkedin.com/in/christopherlo34/',
-        image: '/officers/lo_chris.jpeg',
+        image: '/officers/Lo_Chris.jpg',
     },
     {
         name: 'Matthew Wang',
@@ -126,7 +126,7 @@ export const allofficers = [
         cohort: 'Spring 2023 Cohort',
         position: 'Program Manager',
         linkedin: 'https://www.linkedin.com/in/-matthew-wang-/',
-        image: '/officers/wang_matthew.jpeg',
+        image: '/officers/Wang_Matthew.jpg',
     },
     {
         name: 'Taylor Chin',
@@ -162,7 +162,7 @@ export const allofficers = [
         cohort: 'Spring 2023 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/justin-kwong-4855b7242/',
-        image: '/officers/Justin Kwong.JPG',
+        image: '/officers/Kwong_Justin.jpeg',
     },
     {
         name: 'Natalie Kuang',
@@ -180,7 +180,7 @@ export const allofficers = [
         cohort: 'Spring 2023 Cohort',
         position: 'Finance',
         linkedin: 'https://www.linkedin.com/in/keshav-lodha-0497541b7/',
-        image: '/officers/Lodha_Keshav.JPG',
+        image: '/officers/Lodha_Keshav.png',
     },
     {
         name: 'Newland Luu',
@@ -189,7 +189,7 @@ export const allofficers = [
         cohort: 'Spring 2023 Cohort',
         position: 'Internal Affairs',
         linkedin: 'https://www.linkedin.com/in/newland-luu-512805210/',
-        image: '/officers/luu_newland.jpeg',
+        image: '/officers/Luu_Newland.jpg',
     },
     {
         name: 'Bryan Nguyen',
@@ -234,16 +234,7 @@ export const allofficers = [
         cohort: 'Fall 2023 Cohort',
         position: 'Marketing',
         linkedin: 'https://www.linkedin.com/in/fabriziolazo3/',
-        image: '/officers/gutierrez_fabrizio.jpeg',
-    },
-    {
-        name: 'Fabrizio Lazo Gutierrez',
-        year: 'Class of 2026',
-        major: 'Mechanical Engineering',
-        cohort: 'Fall 2023 Cohort',
-        position: 'Marketing',
-        linkedin: 'https://www.linkedin.com/in/fabriziolazo3/',
-        image: '/officers/gutierrez_fabrizio.jpeg',
+        image: '/officers/Guiterrez_Fabrizio.jpg',
     },
     {
         name: 'Ian Marwong',
@@ -252,7 +243,7 @@ export const allofficers = [
         cohort: 'Fall 2023 Cohort',
         position: 'Vice President',
         linkedin: 'https://www.linkedin.com/in/fabriziolazo3/',
-        image: '/officers/gutierrez_fabrizio.jpeg',
+        image: '/officers/Marwong_Ian.jpg',
     },
     {
         name: 'Aliya Abla',
@@ -261,7 +252,7 @@ export const allofficers = [
         cohort: 'Fall 2023 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/aliya-abla/',
-        image: '/officers/abla_aliya.jpeg',
+        image: '/officers/Abla_Aliya.png',
     },
     {
         name: 'Adrian Chan',
@@ -270,7 +261,7 @@ export const allofficers = [
         cohort: 'Fall 2023 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/adriansc004/',
-        image: '/officers/chan_adrian.jpeg',
+        image: '/officers/Chan_Adrian.jpg',
     },
     {
         name: 'Shruti Kakar',
@@ -279,7 +270,7 @@ export const allofficers = [
         cohort: 'Fall 2023 Cohort',
         position: 'Vice President',
         linkedin: 'https://www.linkedin.com/in/kakarshruti/',
-        image: '/officers/kakar_shruti.jpeg',
+        image: '/officers/Kakar_Shruti.jpg',
     },
     {
         name: 'Nicholas Xu',
@@ -288,7 +279,7 @@ export const allofficers = [
         cohort: 'Fall 2023 Cohort',
         position: 'Program Manager',
         linkedin: 'https://www.linkedin.com/in/nicholasxu2026/',
-        image: '/officers/xu_nicholas.jpeg',
+        image: '/officers/Xu_Nicholas.JPG',
     },
     {
         name: 'Seshnag Regoti',
@@ -297,7 +288,7 @@ export const allofficers = [
         cohort: 'Fall 2023 Cohort',
         position: 'Program Manager',
         linkedin: 'https://www.linkedin.com/in/seshnag-regoti/',
-        image: '/officers/regoti_seshnag.jpeg',
+        image: '/officers/Regoti_Seshnag.jpg',
     },
     {
         name: 'Alexander Ilusorio',
@@ -306,7 +297,7 @@ export const allofficers = [
         cohort: 'Fall 2023 Cohort',
         position: 'Finance',
         linkedin: 'https://www.linkedin.com/in/alexander-ilusorio-955819296/',
-        image: '/officers/ilusorio_alexander.jpeg',
+        image: '/officers/Ilusorio_Alexander.png',
     },
     {
         name: 'Kayla Hom',
@@ -315,16 +306,7 @@ export const allofficers = [
         cohort: 'Fall 2023 Cohort',
         position: 'Finance',
         linkedin: 'https://www.linkedin.com/in/kayla-hom/',
-        image: '/officers/hom_kayla.jpeg',
-    },
-    {
-        name: 'Kayla Hom',
-        year: 'Class of 2024',
-        major: 'Computer Science',
-        cohort: 'Fall 2023 Cohort',
-        position: 'Finance',
-        linkedin: 'https://www.linkedin.com/in/kayla-hom/',
-        image: '/officers/hom_kayla.jpeg',
+        image: '/officers/Hom_Kayla.jpg',
     },
     {
         name: 'Michelle Huo',
@@ -333,7 +315,7 @@ export const allofficers = [
         cohort: 'Fall 2023 Cohort',
         position: 'Marketing',
         linkedin: 'https://www.linkedin.com/in/michelle-huo-667b80273/',
-        image: '/officers/huo_michelle.jpeg',
+        image: '/officers/Huo_Michelle.jpg',
     },
     {
         name: 'Vanessa Guo',
@@ -342,7 +324,7 @@ export const allofficers = [
         cohort: 'Fall 2023 Cohort',
         position: 'Finance',
         linkedin: 'https://www.linkedin.com/in/vanessaguo03/',
-        image: '/officers/guo_vanessa.jpeg',
+        image: '/officers/Guo_Vanessa.jpg',
     },
     {
         name: 'Esha Chakrabarty',
@@ -351,7 +333,7 @@ export const allofficers = [
         cohort: 'Fall 2023 Cohort',
         position: 'Finance',
         linkedin: 'https://www.linkedin.com/in/esha-chakrabarty/',
-        image: '/officers/chakrabarty_esha.jpeg',
+        image: '/officers/Chakrabarty_Esha.jpg',
     },
     {
         name: 'Shana Chen',
@@ -360,7 +342,7 @@ export const allofficers = [
         cohort: 'Fall 2023 Cohort',
         position: 'Finance',
         linkedin: 'https://www.linkedin.com/in/shana-chen-7b853627b/',
-        image: '/officers/chen_shana.jpeg',
+        image: '/officers/Chen_Shana.jpg',
     },
     {
         name: 'Nick Lin',
@@ -369,7 +351,7 @@ export const allofficers = [
         cohort: 'Spring 2023 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/nsclin/',
-        image: '/officers/lin_nick.jpeg',
+        image: '/officers/Lin_Nick.jpg',
     },
     {
         name: 'Jaclyn Lee',
@@ -378,7 +360,7 @@ export const allofficers = [
         cohort: 'Spring 2023 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/jaclyn-lee127/',
-        image: '/officers/lee_jaclyn.jpeg',
+        image: '/officers/Lee_Jaclyn.jpg',
     },
     {
         name: 'Nicholas Kim',
@@ -387,7 +369,7 @@ export const allofficers = [
         cohort: 'Spring 2023 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/nickim04/',
-        image: '/officers/kim_nicholas.jpeg',
+        image: '/officers/Kim_Nicholas.jpg',
     },
     {
         name: 'Hadi Beveridge Eguino',
@@ -396,16 +378,7 @@ export const allofficers = [
         cohort: 'Spring 2023 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/hadi-beveridge-eguino/',
-        image: '/officers/beveridgeeguino_hadi.jpeg',
-    },
-    {
-        name: 'Nicholas Kim',
-        year: 'Class of 2026',
-        major: 'Mechanical Engineering',
-        cohort: 'Spring 2023 Cohort',
-        position: 'Professional Relations',
-        linkedin: 'https://www.linkedin.com/in/nickim04/',
-        image: '/officers/kim_nicholas.jpeg',
+        image: '/officers/Eguino_Hadi.JPG',
     },
     {
         name: 'Sumain Chiv',
@@ -423,7 +396,7 @@ export const allofficers = [
         cohort: 'Spring 2024 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/colinchu27/',
-        image: '/officers/chu_colin.jpeg',
+        image: '/officers/Chu_Colin.jpeg',
     },
     {
         name: 'Etienne Rousseau',
@@ -432,7 +405,7 @@ export const allofficers = [
         cohort: 'Spring 2024 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/etienne-rousseau/',
-        image: '/officers/rousseau_etienne.jpeg',
+        image: '/officers/Rousseau_Etienne.jpg',
     },
     {
         name: 'Lucas Fedronic',
@@ -441,7 +414,7 @@ export const allofficers = [
         cohort: 'Spring 2024 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/lucas-fedronic-4b030b217/',
-        image: '/officers/fedronic_lucas.jpeg',
+        image: '/officers/Fedronic_Lucas.jpg',
     },
     {
         name: 'Richard Huang',
@@ -450,7 +423,7 @@ export const allofficers = [
         cohort: 'Spring 2024 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/ridhuang/',
-        image: '/officers/huang_richard.jpeg',
+        image: '/officers/Huang_Richard.jpeg',
     },
     {
         name: 'Cindy Shing',
@@ -459,7 +432,7 @@ export const allofficers = [
         cohort: 'Spring 2024 Cohort',
         position: 'Program Manager',
         linkedin: 'https://www.linkedin.com/in/cindy-shing-09387a304/',
-        image: '/officers/shing_cindy.jpeg',
+        image: '/officers/Shing_Cindy.jpg',
     },
     {
         name: 'Erika Gosti',
@@ -468,7 +441,7 @@ export const allofficers = [
         cohort: 'Spring 2024 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/erika-gosti/',
-        image: '/officers/gosti_erika.jpeg',
+        image: '/officers/Gosti_Erika.JPG',
     },
     {
         name: 'Braeden Wagner',
@@ -477,7 +450,7 @@ export const allofficers = [
         cohort: 'Spring 2024 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/braedenwagner/',
-        image: '/officers/wagner_braeden.jpeg',
+        image: '/officers/Wagner_Braeden.jpg',
     },
     {
         name: 'Oscar Wang',
@@ -486,7 +459,7 @@ export const allofficers = [
         cohort: 'Spring 2024 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/wang-oscar/',
-        image: '/officers/wang_oscar.jpeg',
+        image: '/officers/Wang_Oscar.jpg',
     },
     {
         name: 'Christopher Ordaz',
@@ -495,7 +468,7 @@ export const allofficers = [
         cohort: 'Spring 2024 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/christopher-ordaz-44865429a/',
-        image: '/officers/ordaz_christopher.jpeg',
+        image: '/officers/Ordaz_Christopher.jpg',
     },
     {
         name: 'Simone Robson',
@@ -504,7 +477,7 @@ export const allofficers = [
         cohort: 'Spring 2024 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/simone-robson1/',
-        image: '/officers/robson_simone.jpeg',
+        image: '/officers/Robson_Simone.jpeg',
     },
 
     {
@@ -514,7 +487,7 @@ export const allofficers = [
         cohort: 'Fall 2024 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/paige-phung/',
-        image: '/officers/phung_paige.jpeg',
+        image: '/officers/Phung_Paige.jpg',
     },
     {
         name: 'Ariba Arif',
@@ -523,7 +496,7 @@ export const allofficers = [
         cohort: 'Fall 2024 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/ariba-arif-92315a32a/',
-        image: '/officers/arif_ariba.jpeg',
+        image: '/officers/Arif_Ariba.jpeg',
     },
     {
         name: 'Benjamin Busche',
@@ -532,7 +505,7 @@ export const allofficers = [
         cohort: 'Fall 2024 Cohort',
         position: 'Program Manager',
         linkedin: 'https://www.linkedin.com/in/ben-busche/',
-        image: '/officers/busche_benjamin.jpeg',
+        image: '/officers/Busche_Ben.jpg',
     },
     {
         name: 'Maya Chou',
@@ -550,7 +523,7 @@ export const allofficers = [
         cohort: 'Fall 2024 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/tovuhieuminh/',
-        image: '/officers/hieu_minh.jpeg',
+        image: '/officers/To_HieuMinh.jpg',
     },
     {
         name: 'Naomi Petersen',
@@ -559,7 +532,7 @@ export const allofficers = [
         cohort: 'Fall 2024 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/naomipetersen-/',
-        image: '/officers/petersen_naomi.jpeg',
+        image: '/officers/petersen_naomi.JPG',
     },
     {
         name: 'Austin Sidhu',
@@ -604,7 +577,7 @@ export const allofficers = [
         cohort: 'Fall 2024 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/desiree-poon/',
-        image: '/officers/poon_desiree.jpeg',
+        image: '/officers/Poon_Desiree.jpg',
     },
     {
         name: 'Lorenzo Nakata',
@@ -622,7 +595,7 @@ export const allofficers = [
         cohort: 'Spring 2025 Cohort',
         position: 'Finance',
         linkedin: 'https://www.linkedin.com/in/wang-ng/',
-        image: '/officers/ng_vincent.jpeg',
+        image: '/officers/Ng_Wang.jpeg',
     },
     {
         name: 'Jeshurun Liou',
@@ -631,7 +604,7 @@ export const allofficers = [
         cohort: 'Spring 2025 Cohort',
         position: 'Secretary',
         linkedin: 'https://www.linkedin.com/in/jeshurunliou/',
-        image: '/officers/liou_jeshurun.jpeg',
+        image: '/officers/Liou_JJ.jpeg',
     },
     {
         name: 'Angie Li',
@@ -649,7 +622,7 @@ export const allofficers = [
         cohort: 'Spring 2025 Cohort',
         position: 'Finance',
         linkedin: 'https://www.linkedin.com/in/john-elrenz-macaranas/',
-        image: '/officers/macaranas_john.jpeg',
+        image: '/officers/macaranas_john.jpg',
     },
     {
         name: 'Saatvik Subramaniam',
@@ -658,7 +631,7 @@ export const allofficers = [
         cohort: 'Spring 2025 Cohort',
         position: 'Marketing',
         linkedin: 'https://www.linkedin.com/in/saatvik-subramaniam/',
-        image: '/officers/subramaniam_saatvik.jpeg',
+        image: '/officers/subramaniam_saatvik.jpg',
     },
     {
         name: 'Jefferson Fan',
@@ -667,7 +640,7 @@ export const allofficers = [
         cohort: 'Spring 2025 Cohort',
         position: 'Finance',
         linkedin: 'https://www.linkedin.com/in/jeffersonfan/',
-        image: '/officers/fan_jefferson.jpeg',
+        image: '/officers/fan_jefferson.jpg',
     },
     {
         name: 'Sakura Chiwata',
@@ -685,7 +658,7 @@ export const allofficers = [
         cohort: 'Spring 2025 Cohort',
         position: 'Finance',
         linkedin: 'https://www.linkedin.com/in/arnavakula/',
-        image: '/officers/akula_arnav.jpeg',
+        image: '/officers/akula_arnav.jpg',
     },
     {
         name: 'Andrew Harrington',
@@ -703,7 +676,7 @@ export const allofficers = [
         cohort: 'Spring 2025 Cohort',
         position: 'Marketing',
         linkedin: 'https://www.linkedin.com/in/kaitlyn-hahn/',
-        image: '/officers/hahn-kaitlyn.jpeg',
+        image: '/officers/hahn kaitlyn.JPG',
     },
     {
         name: 'Joshua Wei',
@@ -712,16 +685,7 @@ export const allofficers = [
         cohort: 'Spring 2025 Cohort',
         position: 'Marketing',
         linkedin: 'https://www.linkedin.com/in/joshuaweiiii/',
-        image: '/officers/wei_joshua.jpeg',
-    },
-    {
-        name: 'Andrew Harrington',
-        year: 'Class of 2027',
-        major: 'Civil Engineering',
-        cohort: 'Spring 2025 Cohort',
-        position: 'Marketing',
-        linkedin: 'https://www.linkedin.com/in/andrewdharrington/',
-        image: '/officers/harrington_andrew.jpeg',
+        image: '/officers/wei_joshua.jpg',
     },
     {
         name: 'Ryan Nguyen',
@@ -739,7 +703,7 @@ export const allofficers = [
         cohort: 'Spring 2025 Cohort',
         position: 'Internal Affairs',
         linkedin: 'https://www.linkedin.com/in/liannerdl/',
-        image: '/officers/deleon_lianna.jpeg',
+        image: '/officers/Leon_Lianne.jpg',
     },
     {
         name: 'Hanna Dao',
@@ -748,7 +712,7 @@ export const allofficers = [
         cohort: 'Spring 2025 Cohort',
         position: 'Internal Affairs',
         linkedin: 'https://www.linkedin.com/in/hannadao/',
-        image: '/officers/dao_hanna.jpeg',
+        image: '/officers/dao_hanna.jpg',
     },
     {
         name: 'Hishaan Rajwani',
@@ -820,7 +784,7 @@ export const allofficers = [
         cohort: 'Fall 2025 Cohort',
         position: 'Internal Affairs',
         linkedin: 'https://www.linkedin.com/in/sachinvenkat/',
-        image: '/officers/venkat_sachin.jpeg',
+        image: '/officers/venkat_sachin.jpg',
     },
     {
         name: 'Sophia Palae',
