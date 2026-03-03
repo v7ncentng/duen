@@ -127,7 +127,7 @@ export const finance = [
     cohort: "Fall 2025 Cohort",
     position: "Finance",
     linkedin: "https://www.linkedin.com/in/kenneth-nguyen-b1098b320/",
-    image: "/officers/Kenneth_Nguyen.jpeg",
+    image: "/officers/Nguyen_Kenneth.jpeg",
   },
   {
     name: 'Vincent Ng',

@@ -7,7 +7,7 @@ import { finance } from './DATAfinance'
 import { internal } from './DATAinternal'
 import { profrel } from './DATAprofrel'
 import { marketing } from './DATAmarketing'
-import { cohorts } from './DATAcohorts'
+import { cohorts } from './Datacohorts'
 import type { Metadata } from 'next'
  
 export const metadata: Metadata = {
