@@ -1,11 +1,13 @@
 import Banner from '../components/banner'
 import OfficerBadge from './OfficerBadge'
+import CohortSection from './CohortSection'
 import { eboard } from './DATAeboard'
 import { careerdev } from './DATAcareerdev'
 import { finance } from './DATAfinance'
 import { internal } from './DATAinternal'
 import { profrel } from './DATAprofrel'
 import { marketing } from './DATAmarketing'
+import { cohorts } from './Datacohorts'
 import type { Metadata } from 'next'
  
 export const metadata: Metadata = {
@@ -17,9 +19,11 @@ export default function Officers() {
     return (
         <div className="flex flex-col min-h-fit">
             <Banner word="officers"></Banner>
-
+            <p className="text-center text-lg md:text-xl text-gray-600 px-4 pt-8 pb-2 max-w-2xl mx-auto">
+                Reach out to any of these officers to know more about DUEN!
+            </p>
             {/* Executive Board Container */}
-            <div className="w-full flex flex-col items-center py-20">
+            <div className="w-full flex flex-col items-center pt-8 pb-20">
                 <p className="text-4xl md:text-5xl lg:text-6xl font-bold text-purple pb-20">Executive Board</p>
                 <div className="flex flex-wrap justify-center">
                     {eboard.map((curr_officer, index) => {
@@ -147,6 +151,22 @@ export default function Officers() {
                                 image={curr_officer.image}
                             />
 
+                        )
+                    })}
+                </div>
+            </div>
+
+            {/* Cohorts Section - Dropdown style */}
+            <div className="w-full flex flex-col items-center py-20 bg-gray-50">
+                <p className="text-4xl md:text-5xl lg:text-6xl font-bold text-purple pb-20">Previous Cohorts</p>
+                <div className="w-full max-w-7xl px-4">
+                    {cohorts.map((cohort) => {
+                        return (
+                            <CohortSection
+                                key={cohort.name}
+                                cohortName={cohort.name}
+                                officers={cohort.officers}
+                            />
                         )
                     })}
                 </div>
