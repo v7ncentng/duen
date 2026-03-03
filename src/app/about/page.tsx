@@ -84,7 +84,7 @@ export default function About() {
                     {/* Logo Ticker */}
                     <div className="w-full overflow-hidden mask-gradient">
                         <LogoLoop 
-                            speed={30}
+                            speed={8}
                             direction="left"
                             gap="gap-12 md:gap-16"
                             className="py-4"
