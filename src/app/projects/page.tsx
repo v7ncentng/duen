@@ -10,20 +10,49 @@ export const metadata: Metadata = {
 
 export default function ProjectsPage() {
   return (
-    <main className="flex flex-col min-h-screen bg-white">
-      {/* Hero - minimal like reference */}
-      <section className="w-full px-6 md:px-16 lg:px-32 py-12 md:py-16">
-        <h1 className="text-duen-purple font-bold text-4xl md:text-5xl lg:text-6xl">
-          Our projects
-        </h1>
-        <p className="text-gray-600 text-lg mt-3 max-w-xl">
-          Hardware and software built by DUEN cohorts each quarter.
-        </p>
+    <main className="bg-ink text-white">
+
+      {/* Hero Section */}
+      <section className="bg-ink px-8 md:px-16 pt-24 pb-16 md:pt-32 md:pb-20 relative overflow-hidden">
+        {/* Background text */}
+        <div className="absolute top-16 -right-8 text-[14rem] font-light text-duen-gold-300/5 tracking-tight italic pointer-events-none whitespace-nowrap select-none">
+          PROJECTS
+        </div>
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="flex items-baseline gap-8 mb-6">
+            <span className="font-mono text-xs tracking-widest text-duen-gold-300">
+              01 —
+            </span>
+            <p className="font-mono text-xs tracking-widest text-white/40 uppercase">
+              Cohort Projects
+            </p>
+          </div>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-duen-gold-100 tracking-tight leading-tight max-w-2xl">
+            Building for Davis
+          </h1>
+          <p className="text-lg md:text-xl font-light text-[#8A7F72] leading-relaxed max-w-[55ch] mt-6">
+            Interdisciplinary cohort projects since 2023. Hardware and software built by DUEN cohorts each quarter.
+          </p>
+        </div>
       </section>
 
-      {/* Carousel - large cards with tagline, name, button, and visual (like Clubly/Moober) */}
-      <section className="flex-1 w-full overflow-hidden">
-        <div className="overflow-x-auto overflow-y-hidden snap-x snap-mandatory scroll-smooth flex gap-6 pl-6 pr-12 md:pl-16 md:pr-24 lg:pl-32 lg:pr-32 pb-8 md:gap-8" style={{ scrollbarWidth: 'thin' }}>
+      {/* Carousel Section */}
+      <section className="bg-warm-gray py-16 md:py-20 overflow-hidden">
+        <div className="px-8 md:px-16 max-w-7xl mx-auto mb-10 md:mb-14">
+          <div className="flex items-baseline gap-8">
+            <span className="font-mono text-xs tracking-widest text-duen-gold-300">
+              02 —
+            </span>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-duen-gold-100 tracking-tight">
+              Our Work
+            </h2>
+          </div>
+        </div>
+
+        <div
+          className="overflow-x-auto overflow-y-hidden snap-x snap-mandatory scroll-smooth flex gap-6 pl-8 pr-16 md:pl-16 md:pr-24 lg:pl-32 lg:pr-32 pb-8 md:gap-8"
+          style={{ scrollbarWidth: 'thin' }}
+        >
           {projects.map((project, index) => {
             const isDark = index % 2 === 0
             return (
@@ -34,30 +63,36 @@ export default function ProjectsPage() {
                 <article
                   className={`min-h-[380px] md:min-h-[420px] rounded-2xl flex flex-col md:flex-row relative overflow-hidden ${
                     isDark
-                      ? 'bg-gradient-to-br from-duen-purple-400 to-duen-purple-500 text-white'
-                      : 'bg-gray-50 text-duen-purple border border-gray-200'
+                      ? 'bg-ink border border-duen-gold-300/20 text-white'
+                      : 'bg-duen-gold-300 text-ink'
                   }`}
                 >
                   {isDark && (
-                    <div className="absolute inset-0 pointer-events-none rounded-2xl" style={{ background: 'radial-gradient(ellipse 70% 60% at 85% 50%, rgba(199,170,114,0.12) 0%, transparent 55%)' }} />
+                    <div
+                      className="absolute inset-0 pointer-events-none rounded-2xl"
+                      style={{
+                        background:
+                          'radial-gradient(ellipse 70% 60% at 85% 50%, rgba(199,170,114,0.08) 0%, transparent 55%)',
+                      }}
+                    />
                   )}
                   {/* Left: tagline, name, button */}
                   <div className="flex-1 flex flex-col justify-end p-8 md:p-10 relative z-10">
-                    <p className={`text-sm font-medium mb-1 ${isDark ? 'text-duen-gold-400' : 'text-duen-gold-500'}`}>
+                    <p className={`font-mono text-xs tracking-widest uppercase mb-2 ${isDark ? 'text-duen-gold-300' : 'text-ink/50'}`}>
                       {semesterShortLabel(project.semester)}
                     </p>
-                    <p className={`text-base mb-3 ${isDark ? 'text-white/90' : 'text-gray-600'}`}>
+                    <p className={`text-base mb-3 font-light ${isDark ? 'text-white/70' : 'text-ink/70'}`}>
                       {project.shortDescription}
                     </p>
-                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+                    <h2 className={`text-3xl md:text-4xl lg:text-5xl font-light tracking-tight mb-6 ${isDark ? 'text-duen-gold-100' : 'text-ink'}`}>
                       {project.title}
                     </h2>
                     <Link
                       href={`/projects/${project.slug}`}
-                      className={`inline-flex items-center gap-2 w-fit font-semibold px-5 py-2.5 rounded-lg transition ${
+                      className={`inline-flex items-center gap-2 w-fit font-mono text-xs tracking-widest uppercase px-6 py-3 border transition-all duration-300 ${
                         isDark
-                          ? 'bg-white text-duen-purple hover:bg-duen-gold-100'
-                          : 'bg-duen-purple-500 text-white hover:bg-duen-purple-400'
+                          ? 'border-duen-gold-300 text-duen-gold-300 hover:bg-duen-gold-300 hover:text-ink'
+                          : 'border-ink bg-ink text-duen-gold-300 hover:bg-transparent hover:text-ink'
                       }`}
                     >
                       Learn more
@@ -66,7 +101,7 @@ export default function ProjectsPage() {
                       </svg>
                     </Link>
                   </div>
-                  {/* Right: visual - project image or placeholder */}
+                  {/* Right: visual */}
                   <div className="w-full md:w-2/5 min-h-[200px] md:min-h-full relative z-10 flex items-center justify-center p-6 md:p-8">
                     {project.imagePath ? (
                       <div className="relative w-full aspect-video md:aspect-square max-w-sm rounded-xl overflow-hidden shadow-lg">
@@ -80,13 +115,13 @@ export default function ProjectsPage() {
                       </div>
                     ) : (
                       <div
-                        className={`w-full aspect-video md:aspect-square max-w-sm rounded-xl flex items-center justify-center ${
+                        className={`w-full aspect-video md:aspect-square max-w-sm rounded-xl flex items-center justify-center border ${
                           isDark
-                            ? 'bg-white/10 border border-white/20'
-                            : 'bg-duen-purple-100/30 border border-duen-purple-200/50'
+                            ? 'bg-white/5 border-duen-gold-300/20'
+                            : 'bg-ink/5 border-ink/20'
                         }`}
                       >
-                        <span className={`text-sm ${isDark ? 'text-white/60' : 'text-duen-purple-200'}`}>
+                        <span className={`font-mono text-xs tracking-widest uppercase ${isDark ? 'text-duen-gold-300/40' : 'text-ink/40'}`}>
                           {semesterShortLabel(project.semester)}
                         </span>
                       </div>
@@ -96,40 +131,52 @@ export default function ProjectsPage() {
               </div>
             )
           })}
-          {/* Scroll hint - arrow */}
-          <div className="flex-shrink-0 w-12 flex items-center justify-center self-center opacity-50" aria-hidden>
-            <svg className="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          {/* Scroll hint arrow */}
+          <div className="flex-shrink-0 w-12 flex items-center justify-center self-center opacity-30" aria-hidden>
+            <svg className="w-8 h-8 text-duen-gold-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
           </div>
         </div>
-        <p className="text-center text-gray-500 text-sm mt-2 px-4">Scroll or swipe for more</p>
+
+        <div className="px-8 md:px-16 mt-4">
+          <p className="font-mono text-xs tracking-widest text-white/30 uppercase">Scroll or swipe for more</p>
+        </div>
       </section>
 
-      {/* Bottom - two smaller cards like reference */}
-      <section className="w-full px-6 md:px-16 lg:px-32 py-12 md:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl">
-          <Link
-            href="/join"
-            className="group rounded-2xl overflow-hidden border border-gray-200 bg-duen-purple-500 text-white hover:border-duen-gold-400 hover:shadow-lg transition"
-          >
-            <div className="p-8">
-              <h2 className="text-xl md:text-2xl font-bold text-duen-gold-200">Have a project idea?</h2>
-              <p className="mt-2 text-white/90">Join a cohort and build with us. Recruitment every Fall and Spring.</p>
-              <span className="inline-flex items-center gap-2 mt-4 font-semibold text-duen-gold-300 group-hover:gap-3 transition">
-                Join DUEN
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-              </span>
-            </div>
-          </Link>
-          <div className="rounded-2xl overflow-hidden border border-gray-200 bg-gray-100 flex items-center justify-center min-h-[180px]">
-            <div className="text-center p-8">
-              <p className="text-duen-purple font-bold text-lg">Building for Davis</p>
-              <p className="text-gray-500 text-sm mt-1">Cohort projects since Spring 2023</p>
-            </div>
+      {/* CTA Section */}
+      <section className="bg-duen-gold-300 px-8 md:px-16 py-16 md:py-20">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+          <div>
+            <p className="font-mono text-xs tracking-widest text-ink/50 uppercase mb-4">
+              Get Involved
+            </p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-ink leading-tight tracking-tight">
+              Have a project idea?<br />Build with DUEN.
+            </h2>
+            <p className="mt-4 text-ink/70 font-light text-lg max-w-[45ch]">
+              Join a cohort and work alongside engineers from every discipline. Recruitment every Fall and Spring.
+            </p>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-4 flex-shrink-0">
+            <a
+              href="https://forms.gle/AHsPhLmgBUxxZw2Q7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono text-xs tracking-widest uppercase px-8 py-4 border border-ink bg-ink text-duen-gold-300 hover:bg-transparent hover:text-ink transition-all duration-300 text-center"
+            >
+              Interest Form
+            </a>
+            <a
+              href="mailto:duen-eboard@ucdavis.edu"
+              className="font-mono text-xs tracking-widest uppercase px-8 py-4 border border-ink text-ink hover:bg-ink hover:text-duen-gold-300 transition-all duration-300 text-center"
+            >
+              Email Us
+            </a>
           </div>
         </div>
       </section>
+
     </main>
   )
 }
