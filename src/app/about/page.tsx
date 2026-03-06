@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-    <main className="bg-ink text-white">
+    <main className="bg-duen-purple-300 text-white">
       {/* Hero Section */}
       <Hero
         eyebrow="Davis Undergraduate Engineering Network"
