@@ -50,7 +50,7 @@ export default function Officers() {
         </div>
       </section>
 
-      {/* Executive Board */}
+      {/* Executive Board — position 0 → bg-warm-gray */}
       <section className="bg-warm-gray px-8 md:px-16 py-16 md:py-20">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-baseline gap-8 mb-12 md:mb-16">
@@ -78,9 +78,12 @@ export default function Officers() {
         </div>
       </section>
 
-      {/* Committees */}
-      {committees.map(({ label, number, data }) => (
-        <section key={label} className="bg-ink px-8 md:px-16 py-16 md:py-20 border-t border-duen-gold-300/10">
+      {/* Committees — even index (0,2,4) → bg-ink, odd index (1,3) → bg-warm-gray */}
+      {committees.map(({ label, number, data }, index) => (
+        <section
+          key={label}
+          className={`${index % 2 === 0 ? 'bg-ink' : 'bg-warm-gray'} px-8 md:px-16 py-16 md:py-20 border-t border-duen-gold-300/10`}
+        >
           <div className="max-w-7xl mx-auto">
             <div className="flex items-baseline gap-8 mb-12 md:mb-16">
               <span className="font-mono text-xs tracking-widest text-duen-gold-300">
@@ -108,8 +111,8 @@ export default function Officers() {
         </section>
       ))}
 
-      {/* Previous Cohorts */}
-      <section className="bg-warm-gray px-8 md:px-16 py-16 md:py-20">
+      {/* Previous Cohorts — 5 committees means last was index 4 (bg-ink), so this is bg-warm-gray */}
+      <section className="bg-warm-gray px-8 md:px-16 py-16 md:py-20 border-t border-duen-gold-300/10">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-baseline gap-8 mb-12 md:mb-16">
             <span className="font-mono text-xs tracking-widest text-duen-gold-300">
