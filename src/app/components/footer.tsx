@@ -45,6 +45,8 @@ export default function Footer() {
 
                 {/* Bottom section: Social links in middle */}
                 <div className="flex flex-col items-center justify-center pt-8">
+                    {/* Socials Label */}
+                    <p className="font-bold text-duen-gold-200 pb-4">Socials</p>
                     {/* Social Links */}
                     <div className="flex items-center gap-6">
                         {/* Instagram */}
