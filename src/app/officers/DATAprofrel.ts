@@ -84,7 +84,7 @@ export const profrel = [
     image: '/officers/Hahn Kaitlyn.JPG',
   },
   {
-    name: 'Lianna R. De Leon',
+    name: 'Lianne R. De Leon',
     year: 'Class of 2027',
     major: 'Mechanical Engineering',
     cohort: 'Spring 2025 Cohort',
