@@ -2,7 +2,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 import OfficerType from '@/app/models/IOfficerType'
 
-const OfficerBadge: React.FC<OfficerType> = ({ name, year, major, cohort, position, linkedin, image }) => {
+interface OfficerBadgeProps extends OfficerType {
+  showPosition?: boolean
+}
+
+const OfficerBadge: React.FC<OfficerBadgeProps> = ({ name, year, major, cohort, position, linkedin, image, showPosition = true }) => {
   return (
     <div className="px-5 py-3">
       <div className="w-72 min-h-min flex flex-col items-center px-5">
@@ -32,7 +36,9 @@ const OfficerBadge: React.FC<OfficerType> = ({ name, year, major, cohort, positi
               </svg>
             </Link>
           </div>
-          <p className="text-sm font-light text-[#8A7F72] italic mt-1">{position}</p>
+          {showPosition && (
+            <p className="text-sm font-light text-[#8A7F72] italic mt-1">{position}</p>
+          )}
           <p className="text-xs font-light text-[#8A7F72]/70 mt-0.5">{major}, {year}</p>
         </div>
       </div>

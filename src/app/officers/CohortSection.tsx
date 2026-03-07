@@ -6,9 +6,10 @@ import OfficerType from '@/app/models/IOfficerType'
 interface CohortSectionProps {
   cohortName: string
   officers: OfficerType[]
+  showPosition?: boolean
 }
 
-const CohortSection: React.FC<CohortSectionProps> = ({ cohortName, officers }) => {
+const CohortSection: React.FC<CohortSectionProps> = ({ cohortName, officers, showPosition = false }) => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -46,6 +47,7 @@ const CohortSection: React.FC<CohortSectionProps> = ({ cohortName, officers }) =
               position={curr_officer.position}
               linkedin={curr_officer.linkedin}
               image={curr_officer.image}
+              showPosition={showPosition}
             />
           ))}
         </div>

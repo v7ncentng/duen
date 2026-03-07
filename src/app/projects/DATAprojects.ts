@@ -1,4 +1,4 @@
-export type Semester = 'Spring 2023' | 'Fall 2023' | 'Spring 2024' | 'Fall 2024' | 'Spring 2025' | 'Fall 2025'
+export type Semester = 'Fall 2022' | 'Spring 2023' | 'Fall 2023' | 'Spring 2024' | 'Fall 2024' | 'Spring 2025' | 'Fall 2025'
 
 export interface ProjectLink {
   label: string
@@ -49,27 +49,11 @@ export function semesterShortLabel(semester: Semester): string {
 
 export const projects: Project[] = [
   {
-    slug: 'air-hockey-table',
-    title: 'Air Hockey Table with Score Board',
-    semester: 'Spring 2023',
-    shortDescription: 'Air hockey table with an integrated score board.',
-    description: 'The Spring 2023 cohort built an air hockey table with a score board for DUEN tabling and events.',
-    highlights: ['Air hockey table', 'Integrated score board'],
-  },
-  {
-    slug: 'airplane-launcher',
-    title: 'Airplane Launcher',
-    semester: 'Fall 2023',
-    shortDescription: 'Interactive airplane launcher project.',
-    description: 'The Fall 2023 cohort designed and built an airplane launcher as their cohort project for DUEN tabling and recruitment events. The project gave members hands-on experience in design and manufacturing.',
-    highlights: ['Airplane launcher', 'Interactive demo', 'Fall 2023 cohort build'],
-  },
-  {
     slug: 'advertising-rover',
     title: 'DUEN Advertising Rover',
-    semester: 'Fall 2023',
+    semester: 'Fall 2022',
     shortDescription: 'Rover with LED strip and flag for tabling and recruiting at the MU.',
-    description: 'The Fall 2023 cohort designed and assembled a rover that advertises DUEN at tabling events. It uses an ELEGOO Conqueror Robot Tank base with a 3D-printed weather protection shell and flag holder, LED strip with cascading pattern (Arduino + power bank), and a laminated DUEN flag. The rover supports line-tracking, obstacle-avoidance, and auto-follow modes via remote or phone app.',
+    description: 'The Fall 2022 cohort designed and assembled a rover that advertises DUEN at tabling events. It uses an ELEGOO Conqueror Robot Tank base with a 3D-printed weather protection shell and flag holder, LED strip with cascading pattern (Arduino + power bank), and a laminated DUEN flag. The rover supports line-tracking, obstacle-avoidance, and auto-follow modes via remote or phone app.',
     teamMembers: ['Richmond Ballesteros', 'Sherri Chandra', 'Lauren Gee', 'Abubakr Hadwan', 'Matthew Suyetani'],
     softwareUsed: ['Solidworks', 'Arduino'],
     timeline: [
@@ -114,6 +98,22 @@ export const projects: Project[] = [
       'Phone or remote control',
       'DUEN flag for visibility at tabling',
     ],
+  },
+  {
+    slug: 'air-hockey-table',
+    title: 'Air Hockey Table with Score Board',
+    semester: 'Spring 2023',
+    shortDescription: 'Air hockey table with an integrated score board.',
+    description: 'The Spring 2023 cohort built an air hockey table with a score board for DUEN tabling and events.',
+    highlights: ['Air hockey table', 'Integrated score board'],
+  },
+  {
+    slug: 'airplane-launcher',
+    title: 'Airplane Launcher',
+    semester: 'Fall 2023',
+    shortDescription: 'Interactive airplane launcher project.',
+    description: 'The Fall 2023 cohort designed and built an airplane launcher as their cohort project for DUEN tabling and recruitment events. The project gave members hands-on experience in design and manufacturing.',
+    highlights: ['Airplane launcher', 'Interactive demo', 'Fall 2023 cohort build'],
   },
   {
     slug: 'drink-dispenser',
