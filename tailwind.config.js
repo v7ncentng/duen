@@ -28,6 +28,8 @@ module.exports = {
       'duen-purple-300': '#271b29',
       'duen-purple-400': '#221125',
       'duen-purple-500': '#1b091e',
+      'ink': '#0D0D0D',
+      'warm-gray': '#1A1814',
     },
     extend: {
       fontFamily: {
