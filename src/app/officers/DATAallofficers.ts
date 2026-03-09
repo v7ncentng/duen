@@ -949,13 +949,13 @@ export const allofficers = [
         image: '/officers/nguyen_kenneth.jpeg',
     },
     {
-        name: 'Madeline Kim',
+        name: 'Madeleine Kim',
         year: 'Class of 2029',
         major: 'Biological Systems Engineering',
         cohort: 'Fall 2025 Cohort',
         position: 'Internal Affairs',
         linkedin: 'https://www.linkedin.com/in/madeleine-kim-b7554637a/',
-        image: '/officers/kim_madeline.jpeg',
+        image: '/officers/kim_madeleine.jpeg',
     },
     {
         name: 'Devin Sidhu',
