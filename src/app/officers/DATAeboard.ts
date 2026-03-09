@@ -65,7 +65,7 @@ export const eboard = [
     cohort: 'Fall 2023 Cohort',
     position: 'Vice President',
     linkedin: 'https://www.linkedin.com/in/ian-marwong/',
-    image: '/officers/Marwong_Ian.jpg',
+    image: '/officers/Marwong_Ian.jpeg',
   },
   {
     name: 'Jeshurun Liou',
@@ -83,7 +83,7 @@ export const eboard = [
     cohort: 'Fall 2024 Cohort',
     position: 'Program Manager',
     linkedin: 'https://www.linkedin.com/in/ben-busche/',
-    image: '/officers/Busche_Ben.jpg',
+    image: '/officers/Busche_Ben.jpeg',
   },
   {
     name: 'Cindy Shing',
@@ -92,6 +92,6 @@ export const eboard = [
     cohort: 'Spring 2024 Cohort',
     position: 'Program Manager',
     linkedin: 'https://www.linkedin.com/in/cindy-shing-09387a304/',
-    image: '/officers/Shing_Cindy.jpg',
+    image: '/officers/Shing_Cindy.jpeg',
   }
 ];

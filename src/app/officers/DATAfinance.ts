@@ -55,7 +55,7 @@ export const finance = [
     cohort: 'Spring 2024 Cohort',
     position: 'Committee Director, Finance',
     linkedin: 'https://www.linkedin.com/in/cody-chen-05b379303/',
-    image: '/officers/Chen_Cody.jpg',
+    image: '/officers/Chen_Cody.jpeg',
   },
     {
       name: 'Adam Kim',

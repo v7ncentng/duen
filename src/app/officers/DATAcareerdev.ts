@@ -45,7 +45,7 @@ export const careerdev = [
     cohort: 'Fall 2024 Cohort',
     position: 'Committee Director, Career Development',
     linkedin: 'https://www.linkedin.com/in/paige-phung/',
-    image: '/officers/Phung_Paige.jpg',
+    image: '/officers/Phung_Paige.jpeg',
   },
   {
     name: 'Austin Sidhu',
