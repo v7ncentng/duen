@@ -6,7 +6,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
 interface Props {
-  params: { slug: string }
+  params: Promise<{ slug: string }>
 }
 
 export async function generateStaticParams() {
@@ -14,7 +14,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const project = getProjectBySlug(params.slug)
+  const { slug } = await params
+  const project = getProjectBySlug(slug)
   if (!project) return { title: 'DUEN - Project' }
   return {
     title: `DUEN - ${project.title}`,
@@ -38,8 +39,9 @@ function Section({ id, title, number, children }: { id: string; title: string; n
   )
 }
 
-export default function ProjectPage({ params }: Props) {
-  const project = getProjectBySlug(params.slug)
+export default async function ProjectPage({ params }: Props) {
+  const { slug } = await params
+  const project = getProjectBySlug(slug)
   if (!project) notFound()
 
   const hasTeam = project.teamMembers?.length || project.teamImagePath
@@ -65,7 +67,6 @@ export default function ProjectPage({ params }: Props) {
     { id: 'links', label: 'Links & documents', show: hasLinks },
   ].filter(s => s.show)
 
-  // Assign section numbers
   const numberedSections = sidebarSections.map((s, i) => ({
     ...s,
     number: String(i + 1).padStart(2, '0'),

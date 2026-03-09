@@ -106,6 +106,7 @@ export const projects: Project[] = [
     semester: 'Spring 2023',
     shortDescription: 'Air hockey table with an integrated score board.',
     description: 'The Spring 2023 cohort built an air hockey table with a score board for DUEN tabling and events.',
+    imagePath: '/projects/AirHockeyTeam.jpeg',
     teamImagePath: '/projects/AirHockeyTeam.jpeg',
     highlights: ['Air hockey table', 'Integrated score board'],
   },
@@ -115,6 +116,7 @@ export const projects: Project[] = [
     semester: 'Fall 2023',
     shortDescription: 'Interactive airplane launcher project.',
     description: 'The Fall 2023 cohort designed and built an airplane launcher as their cohort project for DUEN tabling and recruitment events. The project gave members hands-on experience in design and manufacturing.',
+    imagePath: '/projects/airplaneLauncher.jpeg',
     teamImagePath: '/projects/AirplaneLauncherTeam.jpeg',
     highlights: ['Airplane launcher', 'Interactive demo', 'Fall 2023 cohort build'],
   },
@@ -189,6 +191,7 @@ export const projects: Project[] = [
     cohortName: 'Cash Money',
     shortDescription: 'Portable, battery-powered card shuffler and dispenser for tabling and recruitment events.',
     description: 'The Fall 2024 cohort team Cash Money designed and built a Card Shuffler & Dispenser for DUEN tabling and recruitment. The device works with a variable number of players and cards, supports different card sizes, and is intuitive to use and debug. It is portable, battery-powered, and backpack-sized. Cards are shuffled and dispensed within 30 seconds, with an interface to control number of players, number of cards, and other variables. The design incorporates DUEN colors and logo and stays within the $500 budget.',
+    imagePath: '/projects/cardShuffler.jpeg',
     softwareUsed: ['Solidworks (officer support)', '3D printing', 'Soldering', 'Arduino'],
     materials: ['LED strips', 'Walnut boards', 'Waterproofing sprays', 'Jumper cables', 'Sensors', 'Arduino', 'Breadboards'],
     links: [

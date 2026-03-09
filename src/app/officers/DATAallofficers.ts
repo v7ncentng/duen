@@ -288,7 +288,7 @@ export const allofficers = [
         cohort: 'Fall 2023 Cohort',
         position: 'Vice President',
         linkedin: 'https://www.linkedin.com/in/fabriziolazo3/',
-        image: '/officers/Marwong_Ian.jpg',
+        image: '/officers/Marwong_Ian.jpeg',
     },
     {
         name: 'Aliya Abla',
@@ -423,7 +423,7 @@ export const allofficers = [
         cohort: 'Spring 2024 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/cody-chen-59701a290/',
-        image: '/officers/Chen_Cody.jpg',
+        image: '/officers/Chen_Cody.jpeg',
     },
     {
         name: 'Hadi Beveridge Eguino',
@@ -550,7 +550,7 @@ export const allofficers = [
         cohort: 'Fall 2024 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/paige-phung/',
-        image: '/officers/Phung_Paige.jpg',
+        image: '/officers/Phung_Paige.jpeg',
     },
     {
         name: 'Ariba Arif',
@@ -595,7 +595,16 @@ export const allofficers = [
         cohort: 'Fall 2024 Cohort',
         position: 'Professional Relations',
         linkedin: 'https://www.linkedin.com/in/naomipetersen-/',
-        image: '/officers/petersen_naomi.JPG',
+        image: '/officers/petersen_naomi.JPEG',
+    },
+    {
+        name: 'Sanjith Iype',
+        year: 'Class of 2027',
+        major: 'Computer Science and Engineering',
+        cohort: 'Fall 2024 Cohort',
+        position: 'PrRelationsofessional ',
+        linkedin: 'https://www.linkedin.com/in/sanjithiype/',
+        image: '/officers/Iype_Sanjith.jpeg',
     },
     {
         name: 'Austin Sidhu',
@@ -949,13 +958,13 @@ export const allofficers = [
         image: '/officers/nguyen_kenneth.jpeg',
     },
     {
-        name: 'Madeline Kim',
+        name: 'Madeleine Kim',
         year: 'Class of 2029',
         major: 'Biological Systems Engineering',
         cohort: 'Fall 2025 Cohort',
         position: 'Internal Affairs',
         linkedin: 'https://www.linkedin.com/in/madeleine-kim-b7554637a/',
-        image: '/officers/kim_madeline.jpeg',
+        image: '/officers/kim_madeleine.jpeg',
     },
     {
         name: 'Devin Sidhu',

@@ -70,7 +70,7 @@ export const profrel = [
     year: 'Class of 2028',
     major: 'Computer Science and Engineering',
     cohort: 'Spring 2025 Cohort',
-    position: 'Interna  l Affairs',
+    position: 'Professional Relations',
     linkedin: 'https://www.linkedin.com/in/hishaanrajwani/',
     image: '/officers/Rajwani_Hishaan.jpeg',
   },

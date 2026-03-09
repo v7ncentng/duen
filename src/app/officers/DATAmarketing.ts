@@ -93,13 +93,13 @@ export const marketing = [
     image: '/officers/Wu_Jonathan.jpeg',
   },
   {
-    name: 'Madeline Kim',
+    name: 'Madeleine Kim',
     year: 'Class of 2029',
     major: 'Biological Systems Engineering',
     cohort: 'Fall 2025 Cohort',
     position: 'Marketing',
     linkedin: 'https://www.linkedin.com/in/madeleine-kim-b7554637a/',
-    image: '/officers/kim_madeline.jpeg',
+    image: '/officers/kim_madeleine.jpeg',
   },
   {
     name: 'Nancy Wang',
