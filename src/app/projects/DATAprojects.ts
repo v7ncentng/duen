@@ -54,6 +54,7 @@ export const projects: Project[] = [
     semester: 'Fall 2022',
     shortDescription: 'Rover with LED strip and flag for tabling and recruiting at the MU.',
     description: 'The Fall 2022 cohort designed and assembled a rover that advertises DUEN at tabling events. It uses an ELEGOO Conqueror Robot Tank base with a 3D-printed weather protection shell and flag holder, LED strip with cascading pattern (Arduino + power bank), and a laminated DUEN flag. The rover supports line-tracking, obstacle-avoidance, and auto-follow modes via remote or phone app.',
+    imagePath: '/projects/RoverAdvertise.jpeg',
     teamMembers: ['Richmond Ballesteros', 'Sherri Chandra', 'Lauren Gee', 'Abubakr Hadwan', 'Matthew Suyetani'],
     softwareUsed: ['Solidworks', 'Arduino'],
     timeline: [
