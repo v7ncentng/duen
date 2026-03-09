@@ -56,7 +56,7 @@ export const pillars = [
         num: 2,
         name: 'Professionalism.',
         description: 'As a member of DUEN, you have the opportunity to foster your professional skills through workshops. DUEN members also gain access to our alumni network, who help connect and prepare us for industry. Furthermore, through our internship program, you learn invaluable skills that will not only prepare you to be an officer of DUEN, but as an industry professional as well.',
-        imagePath: '/about-content//pillars/prof.jpg',
+        imagePath: '/about-content/pillars/prof.jpg',
         imageDesc: 'Officers at DUEN formal 2023!',
         isReversed: true,
     },

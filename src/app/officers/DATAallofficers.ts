@@ -766,7 +766,7 @@ export const allofficers = [
         cohort: 'Fall 2025 Cohort',
         position: 'Internal Affairs',
         linkedin: 'https://www.linkedin.com/in/ryannakayama/',
-        image: '/officers/nakayama_ryan.jpeg',
+        image: '/officers/nak_ryan.jpeg',
     },
     {
         name: 'Atharva Kharwadkar',
@@ -802,7 +802,7 @@ export const allofficers = [
         cohort: 'Fall 2025 Cohort',
         position: 'Internal Affairs',
         linkedin: 'https://www.linkedin.com/in/moe-palae/',
-        image: '/officers/palae_sophia.jpeg',
+        image: '/officers/Palae_Sophia.jpeg',
     },
     {
         name: 'Benjamin Brundage',
@@ -811,7 +811,7 @@ export const allofficers = [
         cohort: 'Fall 2025 Cohort',
         position: 'Internal Affairs',
         linkedin: 'https://www.linkedin.com/in/benjamin-brundage-63319633a/',
-        image: '/officers/brundage_benjamin.jpeg',
+        image: '/officers/brundage_ben.jpeg',
     },
     {
         name: 'Ethan Cooc',
@@ -856,7 +856,7 @@ export const allofficers = [
         cohort: 'Fall 2025 Cohort',
         position: 'Internal Affairs',
         linkedin: '',
-        image: '/officers/buerger_nik.jpeg',
+        image: '/officers/Buerger_Nik.jpeg',
     },
     {
         name: 'Maya Athayasay',
@@ -865,7 +865,7 @@ export const allofficers = [
         cohort: 'Fall 2025 Cohort',
         position: 'Internal Affairs',
         linkedin: 'https://www.linkedin.com/in/maya-athayasay/',
-        image: '/officers/athayasay_maya.jpeg',
+        image: '/officers/Athaysay_Maya.jpeg',
     },
     {
         name: 'Adam Kim',
@@ -919,7 +919,7 @@ export const allofficers = [
         cohort: 'Fall 2025 Cohort',
         position: 'Internal Affairs',
         linkedin: 'https://www.linkedin.com/in/jhyee/',
-        image: '/officers/yee_justin.jpeg',
+        image: '/officers/yee_justin.png',
     },
 
 

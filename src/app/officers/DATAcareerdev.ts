@@ -54,7 +54,7 @@ export const careerdev = [
     cohort: 'Fall 2024 Cohort',
     position: 'Career Development',
     linkedin: 'https://www.linkedin.com/in/kanvar-austin-sidhu/',
-    image: '/officers/Austin Sidhu.jpeg',
+    image: '/officers/Sidhu_Austin.jpeg',
   },
   //   {
   //   name: 'Greg Chang',
@@ -108,7 +108,7 @@ export const careerdev = [
     cohort: 'Fall 2025 Cohort',
     position: 'Career Development',
     linkedin: 'https://www.linkedin.com/in/ryannakayama/',
-    image: '/officers/Nakayama_Ryan.jpeg',
+    image: '/officers/Nak_Ryan.jpeg',
   },
   {
     name: 'Ryan Ton',

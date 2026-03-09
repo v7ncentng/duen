@@ -63,7 +63,7 @@ export const internal = [
     cohort: 'Fall 2025 Cohort',
     position: 'Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/benjamin-brundage-63319633a/',
-    image: '/officers/brundage_benjamin.jpeg',
+    image: '/officers/brundage_ben.jpeg',
   },
   {
     name: 'Devin Sidhu',
@@ -117,7 +117,7 @@ export const internal = [
     cohort: 'Fall 2025 Cohort',
     position: 'Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/jhyee/',
-    image: '/officers/Yee_Justin.jpeg',
+    image: '/officers/Yee_Justin.png',
   },
   {
     name: 'Maya Athayasay',
@@ -126,7 +126,7 @@ export const internal = [
     cohort: 'Fall 2025 Cohort',
     position: 'Internal Affairs',
     linkedin: 'https://www.linkedin.com/in/maya-athayasay/',
-    image: '/officers/athayasay_maya.jpeg',
+    image: '/officers/Athaysay_Maya.jpeg',
   }
 
 ];
