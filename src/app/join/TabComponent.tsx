@@ -26,7 +26,7 @@ export default function TabComponent() {
             ${
               isInternshipTab
                 ? "bg-ink text-duen-gold-300"
-                : "text-duen-gold-300/5 hover:bg-ink/5"
+                : "text-black hover:bg-ink/5"
             }`}
           >
             Internship
@@ -39,7 +39,7 @@ export default function TabComponent() {
             ${
               !isInternshipTab
                 ? "bg-ink text-duen-gold-300"
-                : "text-duen-gold-300/5 hover:bg-ink/5"
+                : "text-black hover:bg-ink/5"
             }`}
           >
             General Member
