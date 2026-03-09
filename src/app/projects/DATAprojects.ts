@@ -105,6 +105,7 @@ export const projects: Project[] = [
     semester: 'Spring 2023',
     shortDescription: 'Air hockey table with an integrated score board.',
     description: 'The Spring 2023 cohort built an air hockey table with a score board for DUEN tabling and events.',
+    teamImagePath: '/projects/AirHockeyTeam.jpeg',
     highlights: ['Air hockey table', 'Integrated score board'],
   },
   {
@@ -113,6 +114,7 @@ export const projects: Project[] = [
     semester: 'Fall 2023',
     shortDescription: 'Interactive airplane launcher project.',
     description: 'The Fall 2023 cohort designed and built an airplane launcher as their cohort project for DUEN tabling and recruitment events. The project gave members hands-on experience in design and manufacturing.',
+    teamImagePath: '/projects/AirplaneLauncherTeam.jpeg',
     highlights: ['Airplane launcher', 'Interactive demo', 'Fall 2023 cohort build'],
   },
   {
@@ -122,6 +124,8 @@ export const projects: Project[] = [
     cohortName: 'Lil Maxies',
     shortDescription: 'App-controlled drink dispenser with peristaltic pump and motorized valves, built by the Lil Maxies cohort.',
     description: 'The Spring 2024 cohort "Lil Maxies" built the DUEN Drink Dispenser (DDD), a wooden drink dispenser controlled via a React web app. Users place a cup under the dispenser, navigate to the website, input their cup volume, select from available drinks (Water, Apple Juice, Cranberry Juice, Lemonade), choose percentage splits, and click Dispense. An Arduino Uno R4 WiFi receives the request and triggers motorized ball valves and a peristaltic pump to dispense the exact drink blend. The wooden casing was custom-built using a table saw, wood glue, and drilled holes for tubing and wiring.',
+    imagePath: '/projects/DuenDrinkDispenser.png',
+    teamImagePath: '/projects/DDDTeam.jpeg',
     softwareUsed: ['React', 'Arduino IDE', 'CAD (SolidWorks)'],
     timeline: [
         { date: 'Apr 21', description: 'Brainstorm week — introduced to construction project, brainstormed proposals and presented three ideas.' },
@@ -203,6 +207,8 @@ export const projects: Project[] = [
     semester: 'Spring 2025',
     shortDescription: 'Smart fan with person-tracking and evaporative cooling to reduce energy use and carbon footprint.',
     description: 'Windtrax is a fan that tracks the closest person in the room and rotates to follow them while blowing cool air. It uses an IMX708 Arducam with a Raspberry Pi and YOLO for real-time person detection. Cooling is provided by a DURA-COOL evaporative pad: the pad is soaked in distilled water and frozen, so Windtrax blows cool air. The fan turns off when no one is detected, saving electricity. The system includes a 775 12V DC motor and NEMA 17 stepper motor, 3D-printed PLA parts, and a Bluetooth app.',
+    imagePath: '/projects/Windtrax.jpeg',
+    teamImagePath: '/projects/WindtraxTeam.jpeg',
     softwareUsed: ['Python', 'YOLO (Ultralytics)', 'gpiozero', 'Raspberry Pi OS', 'Picamera2', 'Bluetooth app'],
     designProcess: [
       'Mechanical: 775 12V DC motor, NEMA 17 stepper, custom motor brackets, 3D-printed PLA (black). Exposed cooling reservoir, translucent side panels.',
@@ -244,6 +250,7 @@ export const projects: Project[] = [
     cohortName: 'Nonchalant Hustlers',
     shortDescription: 'Interactive arcade-style machine with Flappy Bird game and prize wheel for DUEN tabling.',
     description: 'The Fall 2025 cohort "Nonchalant Hustlers" built the DUEN Tabling Machine (DTM) to engage students at tabling. Players stand in front and raise both arms to start a Flappy Bird–style game; arm movements are tracked via Raspberry Pi 5 AI Camera and Google MediaPipe Pose. Passing through 5 pipes triggers a physical prize wheel (rigged mode). Flyers are dispensed via a rack-and-pinion tray; a motorized door retracts. Compact, portable chassis with handles and removable plexiglass back.',
+    imagePath: '/projects/DTM.png',
     softwareUsed: ['Python', 'Google MediaPipe Pose', 'Raspberry Pi OS', 'Make'],
     timeline: [
       { date: 'Nov 7', description: 'First presentation (objectives, demo, technical teams, budget, next phase).' },
