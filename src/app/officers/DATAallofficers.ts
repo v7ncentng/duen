@@ -975,7 +975,15 @@ export const allofficers = [
         linkedin: 'https://www.linkedin.com/in/jhyee/',
         image: '/officers/yee_justin.png',
     },
-
+    {
+        name: 'Ellaina Kimura',
+        year: 'Class of 2029',
+        major: 'Biomedical Engineering',
+        cohort: 'Fall 2025 Cohort',
+        position: 'Internal Affairs',
+        linkedin: 'https://www.linkedin.com/in/ellaina-kimura-176b74389/',
+        image: '/officers/Kimura_Ellaina.jpeg',
+    }
 
 
 
