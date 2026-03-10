@@ -54,7 +54,7 @@ export const allofficers = [
         cohort: 'Fall 2022 Cohort',
         position: 'Internal Affairs',
         linkedin: 'https://www.linkedin.com/in/richmond-ballesteros-56aa99210/',
-        image: '/officers/ballesteros-richmond.JPG',
+        image: '/officers/ballesteros-richmond.JPEG',
     },
         {
         name: 'Abubakr Hadwan',
@@ -216,7 +216,7 @@ export const allofficers = [
         cohort: 'Spring 2023 Cohort',
         position: 'Career Development',
         linkedin: 'https://www.linkedin.com/in/jnlope/',
-        image: '/officers/Lopez_Josh.jpg',
+        image: '/officers/Lopez_Josh.jpeg',
     },
     {
         name: 'Keshav Lodha',
