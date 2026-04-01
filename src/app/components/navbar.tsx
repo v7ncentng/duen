@@ -39,27 +39,26 @@ export default function NavBar() {
 
         {/* Nav links */}
         <ul
-          className={`md:flex md:items-center md:pb-0 absolute md:static left-0 w-full md:w-auto md:pl-0 shadow-md transition-all duration-500 ease-in z-[-1] md:z-0 ${
-            isOpen ? "top-16" : "top-[-150px]"
-          }`}
+          className={`
+            md:flex md:items-center md:pb-0 
+            absolute md:static bg-duen-purple-500 left-0 w-full md:w-auto 
+            transition-all duration-300 ease-in z-[-1] md:z-0
+            ${isOpen 
+              ? "top-16 opacity-100" 
+              : "top-[-400px] md:top-0 opacity-0 md:opacity-100 pointer-events-none md:pointer-events-auto"
+            }
+          `}
         >
           {links.map((link) => (
-            <div className="md:pl-16 w-full" key={link.name}>
+            <li className="md:ml-8 text-xl md:my-0 my-7 pl-9 md:pl-0" key={link.name}>
               <Link
                 href={link.path}
-                onClick={() => setIsOpen(false)}
-                className="
-                  block
-                  bg-duen-purple-300 md:bg-duen-purple-500
-                  text-white
-                  py-2 pl-8 md:pl-0
-                  transition-colors duration-200
-                  hover:text-[#D4AF37]
-                "
+                onClick={() => setIsOpen(false)} // Closes menu when link is clicked
+                className="text-white hover:text-[#D4AF37] duration-500"
               >
                 {link.name}
               </Link>
-            </div>
+            </li>
           ))}
         </ul>
       </div>
